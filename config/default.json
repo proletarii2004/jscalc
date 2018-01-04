@@ -1,0 +1,3690 @@
+{
+    "backgroundUrl": "images/background/background.jpg",
+
+    "calculateCost": false,
+    "shelfWidth": 6,
+    "shelfLength": 55,
+
+    "widthChange": {
+        "min": 700,
+        "max": 5000,
+        "step": 100,
+        "default": 3000
+    },
+    "heightChange": {
+        "min": 1000,
+        "max": 3000,
+        "step": 100,
+        "default": 2500
+    },
+    "shelvesChange": {
+        "min": 150,
+        "max": 500,
+        "step": 10,
+        "default": 250
+    },
+    "depthChange": {
+        "min": 300,
+        "max": 1000,
+        "step": 100,
+        "default": 600
+    },
+
+    "isShowBottomShelf": true,
+    "isShowCeiling": true,
+    "isShowRear": true,
+    "isShowLeftStand": true,
+    "isShowRightStand": true,
+    "isShowLeftShelve": true,
+    "isShowRightShelve": true,
+    "isShowLeftRear": true,
+    "isShowRightRear": true,
+
+    "cabinetAvailableColors": [
+        {
+            "color": "#efcf9f",
+            "colorShelf": "#f4cb8d",
+            "border": "#b19d7f",
+            "background": "#f3ca8c",
+            "stroke": "#70624e",
+            "line": "#deb181",
+            "colorSide": "#d7ba8f"
+        }, {
+            "color": "#000000",
+            "colorShelf": "#262626",
+            "border": "#bbbbbb",
+            "background": "#eae9e7",
+            "stroke": "#2e2e2e",
+            "line": "#838380",
+            "colorSide": "#000"
+        }, {
+            "color": "#ffffff",
+            "colorShelf": "#c2c0c0",
+            "border": "#a5a5a5",
+            "background": "#fafafa",
+            "stroke": "#737272",
+            "line": "#dcdcdc",
+            "colorSide": "#e6e6e6"
+        }, {
+            "color": "#3b1901",
+            "colorShelf": "#1f0e01",
+            "border": "#402b1c",
+            "background": "#fdfcf5",
+            "stroke": "#000000",
+            "line": "#dfde9f",
+            "colorSide": "#351600"
+        }, {
+            "color": "#9c9c9c",
+            "colorShelf": "#737373",
+            "border": "#7d7d7d",
+            "background": "#e6e6e5",
+            "stroke": "#4f4f4f",
+            "line": "#a9aaa5",
+            "colorSide": "#8c8c8c"
+        }, {
+            "color": "#bf1717",
+            "colorShelf": "#a81919",
+            "border": "#932929",
+            "background": "#ededea",
+            "stroke": "#521414",
+            "line": "#aeaeab",
+            "colorSide": "#ac1414"
+        }, {
+            "color": "#3d6990",
+            "colorShelf": "#757dd1",
+            "border": "#415d75",
+            "background": "#edebe7",
+            "stroke": "#050c2b",
+            "line": "#929390",
+            "colorSide": "#375e81"
+        }, {
+            "color": "#ff00f7",
+            "colorShelf": "#e322b6",
+            "border": "#bb1bb6",
+            "background": "#fbfafc",
+            "stroke": "#4f004e",
+            "line": "#d4d4d4",
+            "colorSide": "#e600de"
+        }, {
+            "color": "#569922",
+            "colorShelf": "#72c82b",
+            "border": "#517b31",
+            "background": "#fcf8f5",
+            "stroke": "#1a2b08",
+            "line": "#e8e6b7",
+            "colorSide": "#4d8a1e"
+        }, {
+            "color": "#744c78",
+            "colorShelf": "#a984b4",
+            "border": "#644b66",
+            "background": "#f7f7f7",
+            "stroke": "#2e0b38",
+            "line": "#d8d8d8",
+            "colorSide": "#68446c"
+        }, {
+            "color": "#8b592b",
+            "colorShelf": "#693f17",
+            "border": "#735336",
+            "background": "#f1c78b",
+            "stroke": "#1c0e01",
+            "line": "#dfb382",
+            "colorSide": "#7d5026"
+        }, {
+            "color": "#f77511",
+            "colorShelf": "#eb630e",
+            "border": "#b66426",
+            "background": "#f7f6fb",
+            "stroke": "#8a5432",
+            "line": "#d7d7d7",
+            "colorSide": "#de690f"
+        }, {
+            "color": "#ffd000",
+            "colorShelf": "#e0b404",
+            "border": "#bb9d1b",
+            "background": "#f5f6f3",
+            "stroke": "#000000",
+            "line": "#6c6c69",
+            "colorSide": "#e6bb00"
+        }, {
+            "color": "#01a2dd",
+            "colorShelf": "#0484b3",
+            "border": "#1c81a6",
+            "background": "#fcfbfd",
+            "stroke": "#002533",
+            "line": "#e6e6e7",
+            "colorSide": "#0092c7"
+        }
+    ],
+    "defaultCabinetColors": {
+        "color": "#efcf9f",
+        "colorShelf": "#f4cb8d",
+        "border": "#b19d7f",
+        "background": "#f3ca8c",
+        "stroke": "#70624e",
+        "line": "#deb181",
+        "colorSide": "#d7ba8f"
+    },
+    "boxColors": {
+        "stroke": "#8a8175",
+        "color": "#d3c2ac"
+    },
+    "pipeColors": {
+        "topColor": "#e8e2da",
+        "topPantographColor": "#e6e6e1",
+        "bottomColor": "#7a7a7a",
+        "bottomPantographColor": "#a4a4a5",
+        "stroke": "#8b7d7e",
+        "color": "#c5c6c6"
+    },
+
+    "doorsAvailableColors": [
+        {
+            "color": "#bdb9b9",
+            "border": "#848282",
+            "line": "#bcb8b8"
+        }, {
+            "color": "#211e1e",
+            "border": "#353434",
+            "line": "#1c1c1c"
+        }, {
+            "color": "#573d2a",
+            "border": "#50433a",
+            "line": "#563a26"
+        }, {
+            "color": "#ccbc56",
+            "border": "#8b8350",
+            "line": "#cbbb54"
+        }, {
+            "color": "#696969",
+            "border": "#595959",
+            "line": "#686868"
+        }
+    ],
+
+    "defaultDoorsColor": {
+        "color": "#bdb9b9",
+        "border": "#848282",
+        "line": "#bcb8b8"
+    },
+
+    "cost": {
+        "cabinetBase": [ 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100, 2200, 2300, 2400, 2500, 2600, 2700, 2800, 2900, 3000, 3100, 3200, 3300, 3400, 3500, 3600, 3700, 3800, 3900, 4000, 4100, 4200, 4300, 4400, 4500, 4600, 4700, 4800, 4900, 5000 ],
+        "bottom": 200,
+        "top": 100,
+        "left": 300,
+        "right": 400,
+        "background": 500,
+        "rightRear": 600,
+        "leftRear": 700,
+        "box": 1000,
+        "hanger": 1150,
+        "paints": 1342,
+        "pantograph": 2789,
+        "tie": 234,
+        "shoes": 564,
+        "pipe": 200,
+        "shelf": 100,
+        "borderShelf": 430,
+        "verticalBaffle": 500,
+        "horizontalBaffle": 360,
+        "door": 1500
+    },
+
+    "doorsCount": 0,
+    "cabinetDoorsWidth": 0,
+    "cabinetDoorsHeight": 0,
+
+    "lang": {
+        "en": {
+            "ERROR_MESSAGE_LOADING_COLLECTION": "Error loading.",
+            "LOADING_TITLE": "Please wait, loading...",
+            "HEADER_INSIDE_TITLE": "Creation of the inside of the cabinet",
+            "HEADER_DOORS_TITLE": "Creation of the outer part of the cabinet",
+            "HEADER_BID_TITLE": "Making an application for production of closet",
+            "HEADER_STEP_1": "1",
+            "HEADER_STEP_2": "2",
+            "HEADER_STEP_3": "3",
+            "INSIDE_CREATE_CABINET": "Create a wardrobe",
+            "DISABLE_COST_CALCULATION": "Individual cost calculation",
+            "BID_REQUEST_HAS_BEEN_SENT": "Request has been sent.",
+            "BID_REQUEST_ERROR": "An error, please try again.",
+            "CHANGE_WIDTH_INPUT_LABEL": "Width",
+            "CHANGE_HEIGHT_INPUT_LABEL": "Height",
+            "CHANGE_DEPTH_INPUT_LABEL": "Depth",
+            "BOTTOM_INPUT_LABEL": "Bottom",
+            "CEILING_INPUT_LABEL": "Ceiling",
+            "NETWORK_ERROR": "An network error. Please, reload page.",
+            "LEFT_SHELVES_CHECKBOX_LABEL": "Left shelves",
+            "LEFT_REAR_CHECKBOX_LABEL": "The left rear",
+            "LEFT_SHELVES_INPUT_LABEL": "",
+            "RIGHT_SHELVES_CHECKBOX_LABEL": "Right shelves",
+            "RIGHT_REAR_CHECKBOX_LABEL": "The right rear",
+            "RIGHT_SHELVES_INPUT_LABEL": "",
+            "REAR_CHECKBOX_LABEL": "The rear",
+            "LEFT_STAND_CHECKBOX_LABEL": "Left stand",
+            "RIGHT_STAND_CHECKBOX_LABEL": "Right stand",
+            "SHELF_COLOR_PICKER_LABEL": "Color",
+            "INSTRUCTION_MAIN_TITLE": "Instruction",
+            "DOORS_COUNT_LABEL": "Number of doors",
+            "DOOR_COLOR_LABEL": "Profil",
+            "HORIZONTAL_BAFFLE_LABEL": "The horizontal baffle doors",
+            "VERTICAL_BAFFLE_LABEL": "The vertical wall of doors",
+            "DRAG_CABINET_ITEMS": "Drag the items into the cabinet",
+            "INSTRUCTION_TITLE": "How to deal with online designer?",
+            "INSTRUCTION_SUBTITLE": "When designing furniture for the first time, be sure to read the instructions for working with online calculator to calculate the most accurate value of the product.",
+            "INSTRUCTION_STEP_1_TITLE": "Step 1",
+            "INSTRUCTION_STEP_1_DESCRIPTION": "Indicate the size of the main duct of the future cabinet (height, depth, width). Specify whether your closet floor, ceiling, rear wall, side racks (for built-in furniture). Select the color of the case. Consider the availability of open corner shelves on the right and the left, and their sizes. Note that the restriction on the size of the cabinet is almost no!",
+            "INSTRUCTION_STEP_2_TITLE": "Step 2",
+            "INSTRUCTION_STEP_2_DESCRIPTION": "Select the content of the cabinet by dragging the mouse in the desired item is convenient, in your opinion, the place. Start with vertical partitions, defining the number of offices in the closet. Optionally, set the pantograph hangers, vertical and horizontal pipes, holders tie and trousers, shoe racks. The remaining space is filled with drawers and shelves. Or act differently - start with the number and size of shelves and drawers, and then if possible, make the additional elements.",
+            "INSTRUCTION_STEP_3_TITLE": "Step 3",
+            "INSTRUCTION_STEP_3_DESCRIPTION": "Go to the external design wardrobe. Specify the number of doors - it is usually equal to the number of vertical compartments in the cabinet. Choose a material for doors (chipboard, glass or mirror) and their color. Optionally, you can perform a combination of several materials, doors, separated. For example, do not all door mirror, but only two-thirds, filling out the rest of the leaf chipboard.",
+            "INSTRUCTION_STEP_4_TITLE": "Step 4",
+            "INSTRUCTION_STEP_4_DESCRIPTION_PART_1": "Fill out the form to indicate your contact information, and send us a request for a free calculation of the cost of the cabinet. The price will also include fasteners and hardware necessary for the implementation of your project.",
+            "INSTRUCTION_STEP_4_DESCRIPTION_PART_2": "Once you have issued a request to the closet, the calculator can be closed. Message with the results of the calculation and the exact value of the cabinet will come to your email inbox. Rate the work of online designer and create your perfect wardrobe. And we gladly will implement your idea and make you the owner of an exclusive and high-quality furniture!",
+            "HORIZONTAL_BAFFLE_COLLECTION_LABEL": "The horizontal baffle",
+            "HORIZONTAL_VERTICAL_WALL_LABEL": "The vertical wall",
+            "ORDINARY_HANGER_LABEL": "Hanger",
+            "ASCENDING_PIPE_LABEL": "Ascending pipe",
+            "BOX_LABEL": "Box",
+            "TIE_LABEL": "Tie",
+            "SHOES_LABEL": "Shoes",
+            "HANGER_LABEL": "Hanger",
+            "PANTOGRAPH_LABEL": "Pantograph",
+            "TROUSERS_LABEL": "Trousers",
+            "ASIDE_PANEL_NEXT": "Next",
+            "ASIDE_PANEL_DESCRIPTION_STEP_1": "Choice of doors",
+            "ASIDE_PANEL_DESCRIPTION_STEP_2": "Request",
+            "RETURN_TO_INSIDE": "Cabinet setup",
+            "RETURN_TO_DOORS": "Doors choice",
+            "ASIDE_PANEL_REPEAT_TEXT": "Start over",
+            "ASIDE_PANEL_HELP_TEXT": "Help",
+            "ASIDE_LEFT_TITLE": "Back",
+            "BID_NAME_INPUT_LABEL": "Name",
+            "BID_PHONE_INPUT_LABEL": "Phone",
+            "BID_EMAIL_INPUT_LABEL": "E-mail",
+            "BID_COMMENTS_INPUT_LABEL": "Comments",
+            "BID_CITY_INPUT_LABEL": "City",
+            "BID_SEND_REQUEST": "Submit",
+            "BID_CABINET_SECTION_TITLE": "Inside",
+            "BID_CABINET_SECTION_HEIGHT": "Cabinet height",
+            "BID_CABINET_SECTION_WIDTH": "Cabinet width",
+            "BID_CABINET_SECTION_DEPTH": "Cabinet depth",
+            "BID_DOORS_SECTION_TITLE": "Facade",
+            "BID_DOORS_SECTION_DOORS_COUNT": "Number of doors",
+            "BID_SECTION_MM": "mm",
+            "CABINET_COST_LABEL": "The cost of the cabinet",
+            "DOORS_COST_LABEL": "The cost of the doors",
+            "TOTAL_COST_LABEL": "Total value",
+            "CABINET_COST_RUB_LABEL": "RUB",
+            "TWO_OPTIONS_YES": "Yes",
+            "TWO_OPTIONS_NO": "No",
+            "CREATE_CABINET_TITLE": "All elements will be deleted.",
+            "CREATE_CABINET_SUBTITLE": "Proceed?",
+            "CONFIRMATION_MODAL_OK": "OK",
+            "CONFIRMATION_MODAL_DOORS_MIN": "Doors width can not be less 450mm.",
+            "CONFIRMATION_MODAL_DOORS_MAX": "Doors width can not exceed 1200mm.",
+            "CONFIRMATION_MODAL_CHOOSE_DOORS_MATERIAL": "Select the material for all doors.",
+            "REPEAT_MODAL_TITLE": "All elements will be deleted.",
+            "REPEAT_MODAL_SUBTITLE": "Are you sure?",
+            "REPEAT_MODAL_CANCEL": "Cancel",
+            "REPEAT_MODAL_CONTINUE": "Continue",
+            "DOORS_MODIFICATION_COMPLETE": "Complete modification",
+            "DOORS_MODIFICATION_INVERT": "Invert texture",
+            "TEXTURE_GROUP_MIRROR": "Зеркало",
+            "TEXTURE_ITEM_MIRROR_SILVER_MY": "Серебро MY",
+            "TEXTURE_ITEM_MIRROR_BRONZE": "Бронза",
+            "TEXTURE_ITEM_MIRROR_GRAFIT": "Графит",
+            "TEXTURE_ITEM_MIRROR_BLUE": "Голубое",
+            "TEXTURE_ITEM_MIRROR_GREEN22": "Зеленое 22",
+            "TEXTURE_GROUP_MY_TEXTURE": "МоиТекстуры",
+            "TEXTURE_ITEM_MY_TEXTURE_1": "Моя текстура – 1",
+            "TEXTURE_ITEM_MY_TEXTURE_2": "Моя текстура – 2",
+            "TEXTURE_ITEM_MY_TEXTURE_3": "Моя текстура – 3",
+            "TEXTURE_ITEM_MY_TEXTURE_4": "Моя текстура – 4",
+            "TEXTURE_ITEM_MY_TEXTURE_5": "Моя текстура – 5",
+            "TEXTURE_ITEM_MY_TEXTURE_6": "Моя текстура – 6",
+            "TEXTURE_ITEM_MY_TEXTURE_7": "Моя текстура – 7",
+            "TEXTURE_ITEM_MY_TEXTURE_8": "Моя текстура – 8",
+            "TEXTURE_ITEM_MY_TEXTURE_9": "Моя текстура – 9",
+            "TEXTURE_GROUP_SANDSTREAM_2": "Пескоструй 2",
+            "TEXTURE_ITEM_SANDSTREAM_2_BAMBUK": "Бамбук",
+            "TEXTURE_ITEM_SANDSTREAM_2_EIFJ_TOWER": "Эйфелева башня",
+            "TEXTURE_ITEM_SANDSTREAM_2_FLOWERS_1": "Цветы-1",
+            "TEXTURE_ITEM_SANDSTREAM_2_FLOWERS_2": "Цветы-2",
+            "TEXTURE_ITEM_SANDSTREAM_2_HOT_GIRL": "Девушка",
+            "TEXTURE_ITEM_SANDSTREAM_2_VENZELIA": "Вензеля",
+            "TEXTURE_GROUP_DSP": "ДСП",
+            "TEXTURE_ITEM_DSP_H047": "H047",
+            "TEXTURE_ITEM_DSP_H056": "H056",
+            "TEXTURE_ITEM_DSP_H78": "H78",
+            "TEXTURE_ITEM_DSP_H199": "H199",
+            "TEXTURE_ITEM_DSP_H1106": "H1106",
+            "TEXTURE_ITEM_DSP_H1111": "H1111",
+            "TEXTURE_ITEM_DSP_H1129": "H1129",
+            "TEXTURE_ITEM_DSP_H1137": "H1137",
+            "TEXTURE_ITEM_DSP_H1145": "H1145",
+            "TEXTURE_ITEM_DSP_H1189": "H1189",
+            "TEXTURE_ITEM_DSP_H1277": "H1277",
+            "TEXTURE_ITEM_DSP_H1428": "H1428",
+            "TEXTURE_ITEM_DSP_H1476": "H1476",
+            "TEXTURE_ITEM_DSP_H1484": "H1484",
+            "TEXTURE_ITEM_DSP_H1502": "H1502",
+            "TEXTURE_ITEM_DSP_H1511": "H1511",
+            "TEXTURE_ITEM_DSP_H1521": "H1521",
+            "TEXTURE_ITEM_DSP_H1599": "H1599",
+            "TEXTURE_ITEM_DSP_H1698": "H1698",
+            "TEXTURE_ITEM_DSP_H1699": "H1699",
+            "TEXTURE_ITEM_DSP_H3005": "H3005",
+            "TEXTURE_ITEM_DSP_H3006": "H3006",
+            "TEXTURE_ITEM_DSP_H3025": "H3025",
+            "TEXTURE_ITEM_DSP_H3058": "H3058",
+            "TEXTURE_ITEM_DSP_H3078": "H3078",
+            "TEXTURE_ITEM_DSP_H3080": "H3080",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3082": "Pal – Egger H3082",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3090": "Pal – Egger H3090",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3000": "Pal – Egger H3000",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3128": "Pal – Egger H3128",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3100": "Pal – Egger H3100",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3306": "Pal – Egger H3306",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3331": "Pal – Egger H3331",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3300": "Pal – Egger H3300",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3301": "Pal – Egger H3301",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3302": "Pal – Egger H3302",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3303": "Pal – Egger H3303",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3304": "Pal – Egger H3304",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3700": "Pal – Egger H3700",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3702": "Pal – Egger H3702",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3704": "Pal – Egger H3704",
+            "TEXTURE_ITEM_DSP_H3704": "H3704",
+            "TEXTURE_ITEM_DSP_H087": "H087",
+            "TEXTURE_ITEM_DSP_H1151": "H1151",
+            "TEXTURE_ITEM_DSP_H1215": "H1215",
+            "TEXTURE_ITEM_DSP_H1298": "H1298",
+            "TEXTURE_ITEM_DSP_H1424": "H1424",
+            "TEXTURE_ITEM_DSP_F501": "F501",
+            "TEXTURE_ITEM_DSP_H1615": "H1615",
+            "TEXTURE_ITEM_DSP_H1706": "H1706",
+            "TEXTURE_ITEM_DSP_H1719": "H1719",
+            "TEXTURE_ITEM_DSP_H1720": "H1720",
+            "TEXTURE_ITEM_DSP_H1733": "H1733",
+            "TEXTURE_ITEM_DSP_H1887": "H1887",
+            "TEXTURE_ITEM_DSP_H1950": "H1950",
+            "TEXTURE_ITEM_DSP_H1952": "H1952",
+            "TEXTURE_ITEM_DSP_H3012": "H3012",
+            "TEXTURE_ITEM_DSP_H3031": "H3031",
+            "TEXTURE_ITEM_DSP_H3332": "H3332",
+            "TEXTURE_ITEM_DSP_H3400": "H3400",
+            "TEXTURE_ITEM_DSP_H3734": "H3734",
+            "TEXTURE_ITEM_DSP_H3739": "H3739",
+            "TEXTURE_ITEM_DSP_H3753": "H3753",
+            "TEXTURE_ITEM_DSP_H3755": "H3755",
+            "TEXTURE_ITEM_DSP_H3775": "H3775",
+            "TEXTURE_ITEM_DSP_H3778": "H3778",
+            "TEXTURE_ITEM_DSP_F583": "F583",
+            "TEXTURE_ITEM_DSP_H0562": "H0562",
+            "TEXTURE_ITEM_DSP_H3030": "H3030",
+
+            "TEXTURE_GROUP_DSP_COLOR": "ДСП Color",
+
+            "TEXTURE_ITEM_DSP_COLOR_U999": "U999",
+            "TEXTURE_ITEM_DSP_COLOR_W1000": "W1000",
+            "TEXTURE_ITEM_DSP_COLOR_U328": "U328",
+            "TEXTURE_ITEM_DSP_COLOR_U537": "U537",
+            "TEXTURE_ITEM_DSP_COLOR_U632": "U632",
+            "TEXTURE_ITEM_DSP_COLOR_U143": "U143",
+            "TEXTURE_ITEM_DSP_COLOR_U337": "U337",
+            "TEXTURE_ITEM_DSP_COLOR_U107": "U107",
+            "TEXTURE_ITEM_DSP_COLOR_U330": "U330",
+            "TEXTURE_ITEM_DSP_COLOR_U336": "U336",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U332": "Egger U332",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U400": "Egger U400",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U506": "Egger U506",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U628": "Egger U628",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U730": "Egger U730",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U535": "Egger U535",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U206": "Egger U206",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U147": "Egger U147",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U224": "Egger U224",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U311": "Egger U311",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U321": "Egger U321",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U108": "Egger U108",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U129": "Egger U129",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_F589": "Egger U589",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U630": "Egger U630",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U727": "Egger U727",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U963": "Egger U963",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U518": "Egger U518",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_F459": "Egger F459",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U540": "Egger U540",
+
+            "TEXTURE_GROUP_GLASS_COLOR": "Стекло Цвет.",
+
+            "TEXTURE_ITEM_GLASS_COLOR_LIME": "Лакобель лиме",
+            "TEXTURE_ITEM_GLASS_COLOR_BLUE": "Лакобель синий",
+            "TEXTURE_ITEM_GLASS_COLOR_GREY": "Лакобель серый",
+            "TEXTURE_ITEM_GLASS_COLOR_ULTRAMARINE": "Лакобель-ультрамарин",
+            "TEXTURE_ITEM_GLASS_COLOR_DARK_RED": "Лакобель-алый",
+            "TEXTURE_ITEM_GLASS_COLOR_WHITE": "Лакобель-белый",
+            "TEXTURE_ITEM_GLASS_COLOR_BIRUZA": "Лакобель-берюза",
+            "TEXTURE_ITEM_GLASS_COLOR_PALE_LIGHT_BLUE": "Лакобель-бледно-голубой",
+            "TEXTURE_ITEM_GLASS_COLOR_PALE_RED": "Лакобель-бледно-красный",
+            "TEXTURE_ITEM_GLASS_COLOR_PALE_BLUE": "Лакобель-бледно-синий",
+            "TEXTURE_ITEM_GLASS_COLOR_PALE": "Лакобель-бледный",
+            "TEXTURE_ITEM_GLASS_COLOR_BORDO": "Лакобель-бордо",
+            "TEXTURE_ITEM_GLASS_COLOR_BURII": "Лакобель-бурый",
+            "TEXTURE_ITEM_GLASS_COLOR_GORCHICH": "Лакобель-горчичный",
+            "TEXTURE_ITEM_GLASS_COLOR_YELLOW": "Лакобель-желтый",
+            "TEXTURE_ITEM_GLASS_COLOR_GREEN_GLAZ": "Лакобель-зеленая-глазурь",
+            "TEXTURE_ITEM_GLASS_COLOR_RED": "Лакобель-красный",
+            "TEXTURE_ITEM_GLASS_COLOR_MALINA": "Лакобель-Малиновый",
+            "TEXTURE_ITEM_GLASS_COLOR_WET": "Лакобель-мокрый",
+            "TEXTURE_ITEM_GLASS_COLOR_OLIVE": "Лакобель-оливка",
+            "TEXTURE_ITEM_GLASS_COLOR_ORANGE": "Лакобель-Оранж",
+            "TEXTURE_ITEM_GLASS_COLOR_PASTELNO_BLUE": "Лакобель-пастельно-голубой",
+            "TEXTURE_ITEM_GLASS_COLOR_SALATOVII": "Лакобель-Салатовый",
+            "TEXTURE_ITEM_GLASS_COLOR_BRIGHT_ORANGE": "Лакобель-светло-оранжевый",
+            "TEXTURE_ITEM_GLASS_COLOR_BRIGHT": "Лакобель-светлый",
+            "TEXTURE_ITEM_GLASS_COLOR_SERIEN": "Лакобель-серень",
+            "TEXTURE_ITEM_GLASS_COLOR_GREY_GREEN": "Лакобель-Серо-зеленый",
+            "TEXTURE_ITEM_GLASS_COLOR_GREY_WITH_DASH": "Лакобель-серый",
+            "TEXTURE_ITEM_GLASS_COLOR_BLUE_GREEN": "Лакобель-Сине-зеленый",
+            "TEXTURE_ITEM_GLASS_COLOR_BLUE_WITH_DASH": "Лакобель-синий",
+            "TEXTURE_ITEM_GLASS_COLOR_DARK_BLUE": "Лакобель-темно-серый",
+            "TEXTURE_ITEM_GLASS_COLOR_DARK_1": "Лакобель-темный",
+            "TEXTURE_ITEM_GLASS_COLOR_DARK_2": "Лакобель-темный",
+            "TEXTURE_ITEM_GLASS_COLOR_HACKI": "Лакобель-хаки",
+            "TEXTURE_ITEM_GLASS_COLOR_BLACK": "Лакобель-черный",
+            "TEXTURE_ITEM_GLASS_COLOR_BRIGHT_1": "Лакобель-яркая",
+            "TEXTURE_ITEM_GLASS_COLOR_BRIGHT_YELLOW": "Лакобель-ярко-желтый",
+
+            "TEXTURE_GROUP_GLASS": "Стекло",
+
+            "TEXTURE_ITEM_GLASS_BRONZE": "Стекло-бронза",
+            "TEXTURE_ITEM_GLASS_TRANSPARENT": "Стекло-прозрачное",
+            "TEXTURE_ITEM_GLASS_16": "Glass-16",
+            "TEXTURE_ITEM_GLASS_17": "Glass-17",
+            "TEXTURE_ITEM_GLASS_18": "Glass-18",
+            "TEXTURE_ITEM_GLASS_19": "Glass-19",
+            "TEXTURE_ITEM_GLASS_1": "Glass-1",
+            "TEXTURE_ITEM_GLASS_2": "Glass-2",
+            "TEXTURE_ITEM_GLASS_3": "Glass-3",
+            "TEXTURE_ITEM_GLASS_4": "Glass-4",
+            "TEXTURE_ITEM_GLASS_5": "Glass-5",
+            "TEXTURE_ITEM_GLASS_6": "Glass-6",
+            "TEXTURE_ITEM_GLASS_7": "Glass-7",
+            "TEXTURE_ITEM_GLASS_8": "Glass-8",
+            "TEXTURE_ITEM_GLASS_9": "Glass-9",
+            "TEXTURE_ITEM_GLASS_10": "Glass-10",
+            "TEXTURE_ITEM_GLASS_11": "Glass-11",
+            "TEXTURE_ITEM_GLASS_12": "Glass-12",
+            "TEXTURE_ITEM_GLASS_13": "Glass-13",
+            "TEXTURE_ITEM_GLASS_14": "Glass-14",
+            "TEXTURE_ITEM_GLASS_15": "Glass-15",
+
+            "TEXTURE_GROUP_SANDSTREAM": "Пескоструй",
+
+            "TEXTURE_ITEM_SANDSTREAM_1": "Пескоструй1",
+            "TEXTURE_ITEM_SANDSTREAM_2": "Песпоструй2",
+            "TEXTURE_ITEM_SANDSTREAM_3": "Песпоструй3",
+            "TEXTURE_ITEM_SANDSTREAM_4": "Пескоструй4",
+            "TEXTURE_ITEM_SANDSTREAM_5": "Пескоструй5",
+            "TEXTURE_ITEM_SANDSTREAM_6": "Пескоструй6",
+            "TEXTURE_ITEM_SANDSTREAM_7": "Пескоструй7",
+
+            "TEXTURE_GROUP_FOTOPRINT": "Фотопечать",
+
+            "TEXTURE_ITEM_FOTOPRINT_BLD_2001": "BLD_2001",
+            "TEXTURE_ITEM_FOTOPRINT_FLW_3003": "FLW_3003",
+            "TEXTURE_ITEM_FOTOPRINT_PRINT_2": "Print-2",
+            "TEXTURE_ITEM_FOTOPRINT_AT_2002": "AT_2002",
+            "TEXTURE_ITEM_FOTOPRINT_ABS_3021": "ABS_3021",
+            "TEXTURE_ITEM_FOTOPRINT_TWN_2006": "TWN_2006",
+            "TEXTURE_ITEM_FOTOPRINT_SEA_3003": "SEA_3003",
+            "TEXTURE_ITEM_FOTOPRINT_TWN_3021": "TWN_3021",
+            "TEXTURE_ITEM_FOTOPRINT_WIN_2005": "WIN_2005",
+            "TEXTURE_ITEM_FOTOPRINT_WTR_2005": "WTR_2005",
+            "TEXTURE_ITEM_FOTOPRINT_WTR_3022": "WTR_3022",
+            "TEXTURE_ITEM_FOTOPRINT_FLW_4001": "FLW_4001",
+            "TEXTURE_ITEM_FOTOPRINT_FOR_2003": "FOR_2003",
+            "TEXTURE_ITEM_FOTOPRINT_FOR_2011": "FOR_2011",
+            "TEXTURE_ITEM_FOTOPRINT_SEA_1006": "SEA_1006",
+            "TEXTURE_ITEM_FOTOPRINT_TWN_2001": "TWN_2001",
+            "TEXTURE_ITEM_FOTOPRINT_ABS_2010": "ABS_2010",
+
+            "TEXTURE_GROUP_BAMBUK": "Бамбук",
+
+            "TEXTURE_ITEM_BAMBUK_2": "Бамбук - 2",
+            "TEXTURE_ITEM_BAMBUK_1": "Бамбук - 1",
+            "TEXTURE_ITEM_BAMBUK_3": "Бамбук - 3",
+            "TEXTURE_ITEM_BAMBUK_LUME_1": "Lume - 1",
+            "TEXTURE_ITEM_BAMBUK_LUME_2": "Lume - 2",
+            "TEXTURE_ITEM_BAMBUK_LUME_3": "Lume - 3",
+            "TEXTURE_ITEM_BAMBUK_LUME_4": "Lume - 4",
+            "TEXTURE_ITEM_BAMBUK_LUME_5": "Lume - 5",
+
+            "TEXTURE_GROUP_ROTANG": "Ротанг",
+
+            "TEXTURE_ITEM_ROTANG_RED": "Красный",
+            "TEXTURE_ITEM_ROTANG_BLUE": "Синий",
+            "TEXTURE_ITEM_ROTANG_WHITE": "Белый",
+            "TEXTURE_ITEM_ROTANG_VENGE": "Венге",
+            "TEXTURE_ITEM_ROTANG_DARK_NUT": "Темн. Орех",
+            "TEXTURE_ITEM_ROTANG_RED_CHERRY": "Рыжая вишня",
+            "TEXTURE_ITEM_ROTANG_HACKI": "Хаки",
+            "TEXTURE_ITEM_ROTANG_NUT": "Орех",
+            "TEXTURE_ITEM_ROTANG_HONEY": "Мед",
+
+            "TEXTURE_GROUP_DECOACRIL": "Декоакрил",
+
+            "TEXTURE_ITEM_DECOACRIL_4": "4",
+            "TEXTURE_ITEM_DECOACRIL_14": "14",
+            "TEXTURE_ITEM_DECOACRIL_46": "46",
+            "TEXTURE_ITEM_DECOACRIL_47": "47",
+            "TEXTURE_ITEM_DECOACRIL_48": "48",
+            "TEXTURE_ITEM_DECOACRIL_49": "49",
+            "TEXTURE_ITEM_DECOACRIL_50": "50",
+            "TEXTURE_ITEM_DECOACRIL_51": "51",
+            "TEXTURE_ITEM_DECOACRIL_3": "3",
+            "TEXTURE_ITEM_DECOACRIL_5": "5",
+            "TEXTURE_ITEM_DECOACRIL_13": "13",
+            "TEXTURE_ITEM_DECOACRIL_15": "15",
+            "TEXTURE_ITEM_DECOACRIL_18": "18",
+            "TEXTURE_ITEM_DECOACRIL_19": "19",
+            "TEXTURE_ITEM_DECOACRIL_25": "25",
+            "TEXTURE_ITEM_DECOACRIL_27": "27",
+            "TEXTURE_ITEM_DECOACRIL_28": "28",
+            "TEXTURE_ITEM_DECOACRIL_29": "29",
+            "TEXTURE_ITEM_DECOACRIL_30": "30",
+            "TEXTURE_ITEM_DECOACRIL_32": "32",
+            "TEXTURE_ITEM_DECOACRIL_43": "43",
+            "TEXTURE_ITEM_DECOACRIL_44": "44",
+            "TEXTURE_ITEM_DECOACRIL_0": "0",
+            "TEXTURE_ITEM_DECOACRIL_1": "1",
+            "TEXTURE_ITEM_DECOACRIL_20": "20",
+            "TEXTURE_ITEM_DECOACRIL_21": "21",
+            "TEXTURE_ITEM_DECOACRIL_22": "22",
+            "TEXTURE_ITEM_DECOACRIL_24": "24",
+            "TEXTURE_ITEM_DECOACRIL_42": "42",
+            "TEXTURE_ITEM_DECOACRIL_45": "45",
+
+            "TEXTURE_GROUP_LEATHER_SIBU": "Кожа SIBU",
+
+            "TEXTURE_ITEM_LEATHER_SIBU_FLORAL_WHITE_SILVER_MAT_LEATHER": "FloralWhiteSilverMatLeather",
+            "TEXTURE_ITEM_LEATHER_SIBU_FLORAL_WHITE_GOLD_MAT_LEATHER": "FloralWhiteGoldMatLeather",
+            "TEXTURE_ITEM_LEATHER_SIBU_FLORAL_BLACK_SILVER_MAT_LEATHER": "FloralBlackSilverMatLeather",
+            "TEXTURE_ITEM_LEATHER_SIBU_FLORAL_BLACK_LEATHER": "FloralBlackLeather",
+            "TEXTURE_ITEM_LEATHER_SIBU_NERO_SILVER": "NeroSilver",
+            "TEXTURE_ITEM_LEATHER_SIBU_ALISE_WHITE_GOLD": "Alise White Gold",
+            "TEXTURE_ITEM_LEATHER_SIBU_ALISE_WHITE_SILVER": "Alise White Silver",
+            "TEXTURE_ITEM_LEATHER_SIBU_ALISE_VINTAGE_BLACK": "Alise Vintage Black",
+            "TEXTURE_ITEM_LEATHER_SIBU_ALISE_VINTAGE_COOPER": "Alise Vintage Cooper",
+            "TEXTURE_ITEM_LEATHER_SIBU_IMPERIAL_BLACK_SILVER": "Imperial Black Silver",
+            "TEXTURE_ITEM_LEATHER_SIBU_IMPERIAL_VINTAGE_BLACK": "Imperial Vintage Black",
+            "TEXTURE_ITEM_LEATHER_SIBU_CROCCO_WHITE_LEATHER": "CroccoWhiteLeather",
+            "TEXTURE_ITEM_LEATHER_SIBU_CROCCO_CREME_LEATHER": "CroccoCremeLeather",
+            "TEXTURE_ITEM_LEATHER_SIBU_COLLAGE_MOCCA": "CollageMocca",
+            "TEXTURE_ITEM_LEATHER_SIBU_COLLAGE_ORO": "CollageOro",
+            "TEXTURE_ITEM_LEATHER_SIBU_COLLAGE_NERO": "CollageNero",
+            "TEXTURE_ITEM_LEATHER_SIBU_BIANCO_SILVER": "BiancoSilver",
+            "TEXTURE_ITEM_LEATHER_SIBU_SIBU_PELO_SAVANNA": "Sibu PELO Savanna",
+            "TEXTURE_ITEM_LEATHER_SIBU_BEIGE_SILVER_MAT": "Beige Silver Mat",
+            "TEXTURE_ITEM_LEATHER_SIBU_LL_QUADRO_CREME": "LL QUADRO Creme",
+            "TEXTURE_ITEM_LEATHER_SIBU_ROMBO40_CREME": "Rombo40_Creme",
+
+            "TEXTURE_GROUP_LEATHER": "Кожа",
+
+            "TEXTURE_ITEM_LEATHER_6": "Кожа -6",
+            "TEXTURE_ITEM_LEATHER_7": "Кожа-7",
+            "TEXTURE_ITEM_LEATHER_8": "Кожа-8",
+            "TEXTURE_ITEM_LEATHER_9": "Кожа -9",
+            "TEXTURE_ITEM_LEATHER_10": "Кожа -10",
+            "TEXTURE_ITEM_LEATHER_11": "Кожа -11",
+            "TEXTURE_ITEM_LEATHER_12": "Кожа -12",
+            "TEXTURE_ITEM_LEATHER_13": "Кожа -13",
+            "TEXTURE_ITEM_LEATHER_14": "Кожа -14",
+            "TEXTURE_ITEM_LEATHER_15": "Кожа -15",
+            "TEXTURE_ITEM_LEATHER_16": "Кожа -16",
+            "TEXTURE_ITEM_LEATHER_17": "Кожа -17",
+            "TEXTURE_ITEM_LEATHER_18": "Кожа -18",
+            "TEXTURE_ITEM_LEATHER_19": "Кожа -19",
+            "TEXTURE_ITEM_LEATHER_20": "Кожа -20",
+            "TEXTURE_ITEM_LEATHER_21": "Кожа -21",
+            "TEXTURE_ITEM_LEATHER_22": "Кожа -22",
+            "TEXTURE_ITEM_LEATHER_24": "Кожа -24",
+            "TEXTURE_ITEM_LEATHER_23": "Кожа -23",
+            "TEXTURE_ITEM_LEATHER_25": "Кожа -25",
+            "TEXTURE_ITEM_LEATHER_26": "Кожа -26",
+            "TEXTURE_ITEM_LEATHER_27": "Кожа -27",
+            "TEXTURE_ITEM_LEATHER_28": "Кожа -28",
+            "TEXTURE_ITEM_LEATHER_29": "Кожа -29",
+            "TEXTURE_ITEM_LEATHER_30": "Кожа -30",
+            "TEXTURE_ITEM_LEATHER_31": "Кожа -31",
+            "TEXTURE_ITEM_LEATHER_32": "Кожа -32",
+            "TEXTURE_ITEM_LEATHER_33": "Кожа -33",
+            "TEXTURE_ITEM_LEATHER_34": "Кожа -34",
+            "TEXTURE_ITEM_LEATHER_35": "Кожа -35",
+            "TEXTURE_ITEM_LEATHER_36": "Кожа -36",
+            "TEXTURE_ITEM_LEATHER_37": "Кожа -37",
+            "TEXTURE_ITEM_LEATHER_38": "Кожа -38",
+            "TEXTURE_ITEM_LEATHER_39": "Кожа -39",
+            "TEXTURE_ITEM_LEATHER_40": "Кожа -40",
+            "TEXTURE_ITEM_LEATHER_41": "Кожа -41",
+            "TEXTURE_ITEM_LEATHER_42": "Кожа -42",
+            "TEXTURE_ITEM_LEATHER_43": "Кожа -43",
+            "TEXTURE_ITEM_LEATHER_44": "Кожа -44",
+            "TEXTURE_ITEM_LEATHER_45": "Кожа -45",
+            "TEXTURE_ITEM_LEATHER_46": "Кожа -46",
+            "TEXTURE_ITEM_LEATHER_47": "Кожа -47",
+            "TEXTURE_ITEM_LEATHER_48": "Кожа -48",
+            "TEXTURE_ITEM_LEATHER_49": "Кожа -49",
+            "TEXTURE_ITEM_LEATHER_50": "Кожа -50",
+            "TEXTURE_ITEM_LEATHER_51": "Кожа -51",
+            "TEXTURE_ITEM_LEATHER_52": "Кожа -52",
+            "TEXTURE_ITEM_LEATHER_53": "Кожа -53",
+            "TEXTURE_ITEM_LEATHER_54": "Кожа -54",
+            "TEXTURE_ITEM_LEATHER_55": "Кожа-55",
+            "TEXTURE_ITEM_LEATHER_56": "Кожа-56",
+            "TEXTURE_ITEM_LEATHER_57": "Кожа-57",
+            "TEXTURE_ITEM_LEATHER_58": "Кожа-58",
+            "TEXTURE_ITEM_LEATHER_59": "Кожа-59",
+
+            "TEXTURE_GROUP_LEATHER_NATURAL": "Кожа Натур.",
+
+            "TEXTURE_ITEM_LEATHER_NATURAL_ZEBRA": "Зебра",
+            "TEXTURE_ITEM_LEATHER_NATURAL_CROCODILE_WHITE": "крокодил-белый",
+            "TEXTURE_ITEM_LEATHER_NATURAL_CROCODILE_BLACK": "крокодил-черный",
+            "TEXTURE_ITEM_LEATHER_NATURAL_CROCODILE_CREAME": "крокодил-кремов",
+            "TEXTURE_ITEM_LEATHER_NATURAL_CROCODILE_BROWN": "крокодил-коричн",
+            "TEXTURE_ITEM_LEATHER_NATURAL_CROCODILE_BRIGHT": "крокодил-светло",
+
+            "TEXTURE_GROUP_ORCHARD": "ORCHARD",
+
+            "TEXTURE_ITEM_ORCHARD_DMCD0332005": "MCD0332005_Флоренция Белая",
+            "TEXTURE_ITEM_ORCHARD_DMCD0333007": "MCD0333007_Флоренция Черная",
+            "TEXTURE_ITEM_ORCHARD_DMCD0343073": "MCD0343073_Лаванда Розовая",
+            "TEXTURE_ITEM_ORCHARD_DMCD0344073": "MCD0344073_Лаванда-Бронзовая",
+            "TEXTURE_ITEM_ORCHARD_DMCD0335073": "MCD0335073_Лаванда-Белая",
+            "TEXTURE_ITEM_ORCHARD_DMCD0336073": "MCD0336073_Лаванда-Сиреневая",
+            "TEXTURE_ITEM_ORCHARD_DMCD0337073": "MCD0337073_Лаванда-Сизая",
+            "TEXTURE_ITEM_ORCHARD_DMCD0338073": "MCD0338073_Лаванда-Черная",
+            "TEXTURE_ITEM_ORCHARD_DMCD0339073": "MCD0339073_Лаванда-Жемчужная",
+            "TEXTURE_ITEM_ORCHARD_DMCD0340073": "MCD0340073_Лаванда-Лазурная",
+            "TEXTURE_ITEM_ORCHARD_DMCD0341073": "MCD0341073_Лаванда-Эвкалипт",
+            "TEXTURE_ITEM_ORCHARD_DMCD0342073": "MCD0342073_Лаванда-Стальная",
+            "TEXTURE_ITEM_ORCHARD_DMCD0352073": "MCD0352073_Лаванда-Красная",
+
+            "TEXTURE_GROUP_VITRAZH": "Витраж",
+
+            "TEXTURE_ITEM_VITRAZH_ROMBI": "Ромбы",
+            "TEXTURE_ITEM_VITRAZH_1": "Витраж 1",
+            "TEXTURE_ITEM_VITRAZH_4": "Витраж 4",
+            "TEXTURE_ITEM_VITRAZH_3": "Витраж 3",
+            "TEXTURE_ITEM_VITRAZH_2": "Витраж 2",
+            "TEXTURE_ITEM_VITRAZH_5": "Витраж 5",
+
+            "TEXTURE_GROUP_RESOPAL": "Resopal",
+
+            "TEXTURE_ITEM_RESOPAL_VIOLA": "Resopal Viola",
+            "TEXTURE_ITEM_RESOPAL_ORCHID": "Resopal Orchid",
+            "TEXTURE_ITEM_RESOPAL_AVOCADO": "Resopal Avocado",
+            "TEXTURE_ITEM_RESOPAL_BEAVER": "Resopal Beaver",
+            "TEXTURE_ITEM_RESOPAL_SILICA": "Resopal Silica",
+            "TEXTURE_ITEM_RESOPAL_SNOW": "Resopal Snow",
+            "TEXTURE_ITEM_RESOPAL_BLACK": "Resopal Black",
+            "TEXTURE_ITEM_RESOPAL_PORT": "Resopal Port",
+            "TEXTURE_ITEM_RESOPAL_U08269": "Resopal U08269-60",
+            "TEXTURE_ITEM_RESOPAL_U08440": "Resopal U08440-60-2",
+            "TEXTURE_ITEM_RESOPAL_U08438": "Resopal U08438-60",
+            "TEXTURE_ITEM_RESOPAL_U08441": "Resopal U08441-60",
+            "TEXTURE_ITEM_RESOPAL_U08265": "Resopal U08265-60",
+            "TEXTURE_ITEM_RESOPAL_U08565": "Resopal U08565-60",
+
+            "TEXTURE_GROUP_GLOSSPANEL": "Glosspanel",
+
+
+            "TEXTURE_ITEM_GLOSSPANEL_VIOLETS": "Фиалки",
+            "TEXTURE_ITEM_GLOSSPANEL_76264_D60": "76264-d60",
+            "TEXTURE_ITEM_GLOSSPANEL_67967_D1058": "67967-d1.058",
+            "TEXTURE_ITEM_GLOSSPANEL_78279": "78279-d1.059",
+            "TEXTURE_ITEM_GLOSSPANEL_WHITE_ROZES": "Розы-белые",
+            "TEXTURE_ITEM_GLOSSPANEL_BISER_BLACK": "Бисер-черный",
+            "TEXTURE_ITEM_GLOSSPANEL_BISER_BORDO": "Бисер-бордовый",
+            "TEXTURE_ITEM_GLOSSPANEL_CHRIZANTEM": "Хризантема",
+            "TEXTURE_ITEM_GLOSSPANEL_MAK": "Мак",
+            "TEXTURE_ITEM_GLOSSPANEL_MONGOLIA": "Магнолия",
+            "TEXTURE_ITEM_GLOSSPANEL_LILY_GRAPHIC": "Лилии-графические",
+            "TEXTURE_ITEM_GLOSSPANEL_LILY_SEPIA": "Лилии-сепия",
+            "TEXTURE_ITEM_GLOSSPANEL_ROZES_COLOR": "Pозы-цветные",
+            "TEXTURE_ITEM_GLOSSPANEL_ROMB_COLOR": "Ромбы-цветные",
+            "TEXTURE_ITEM_GLOSSPANEL_PLIUZCH_BURGUNDUNSKI": "Плющ-бургундски",
+            "TEXTURE_ITEM_GLOSSPANEL_76957_D1007": "76957-d1.007",
+            "TEXTURE_ITEM_GLOSSPANEL_V1589_D1006": "v1589-d1.006",
+            "TEXTURE_ITEM_GLOSSPANEL_61753_D1014": "61753-d1.014",
+            "TEXTURE_ITEM_GLOSSPANEL_76173_D1016": "76173-d1.016",
+            "TEXTURE_ITEM_GLOSSPANEL_76490_D1056": "76490-d1.056",
+            "TEXTURE_ITEM_GLOSSPANEL_76264_D30": "76264-d30",
+            "TEXTURE_ITEM_GLOSSPANEL_76264_D1002": "76264-d1.002",
+            "TEXTURE_ITEM_GLOSSPANEL_76173_D1065": "76173-d1.065",
+            "TEXTURE_ITEM_GLOSSPANEL_77024_D1057": "77024-d1.057",
+            "TEXTURE_ITEM_GLOSSPANEL_67790_D10011": "67790-d1.001-1",
+            "TEXTURE_ITEM_GLOSSPANEL_62524_D1060": "62524-d1.060",
+            "TEXTURE_ITEM_GLOSSPANEL_61753_D1023": "61753-d1.023",
+            "TEXTURE_ITEM_GLOSSPANEL_67967_D1026": "67967-d1.026",
+
+            "TEXTURE_GROUP_FORMICA": "Formica",
+
+            "TEXTURE_ITEM_FORMICA_ANTIQUE_WHITE": "Antique-White",
+            "TEXTURE_ITEM_FORMICA_BOHEMIA": "Bohemia",
+            "TEXTURE_ITEM_FORMICA_CHINA_BLUY": "China-Bluу",
+            "TEXTURE_ITEM_FORMICA_TROPICAL_BLUE": "Tropical-Blue",
+            "TEXTURE_ITEM_FORMICA_SPECTRUM_BLUE": "Spectrum-Blue",
+            "TEXTURE_ITEM_FORMICA_CASSIS": "Cassis",
+            "TEXTURE_ITEM_FORMICA_CHROME_YELLOW": "Chrome-Yellow",
+            "TEXTURE_ITEM_FORMICA_LEVANTE": "Levante",
+            "TEXTURE_ITEM_FORMICA_CLEMENTINE": "Clementine",
+            "TEXTURE_ITEM_FORMICA_JUICY_PINK": "Juicy-pink",
+            "TEXTURE_ITEM_FORMICA_CARNAVAL": "Carnaval",
+            "TEXTURE_ITEM_FORMICA_BORDEAUX": "Bordeaux",
+            "TEXTURE_ITEM_FORMICA_KASHMIR": "Kashmir",
+            "TEXTURE_ITEM_FORMICA_DARK_CHOCOLATE": "Dark-Chocolate",
+            "TEXTURE_ITEM_FORMICA_VERVE": "Verve",
+            "TEXTURE_ITEM_FORMICA_RICH_GREEN": "Rich-green",
+            "TEXTURE_ITEM_FORMICA_OCEAN_GREY": "Ocean-Grey",
+            "TEXTURE_ITEM_FORMICA_STORM": "Storm",
+            "TEXTURE_ITEM_FORMICA_U_GREY": "U.-Grey",
+            "TEXTURE_ITEM_FORMICA_DIAMOND": "Diamond-Black",
+
+            "TEXTURE_GROUP_LAMICOLOR": "Lamicolor глян.",
+
+            "TEXTURE_ITEM_LAMICOLOR_202_INT": "202-int",
+            "TEXTURE_ITEM_LAMICOLOR_751_INT": "751-int",
+            "TEXTURE_ITEM_LAMICOLOR_1175_INT": "1175-int",
+            "TEXTURE_ITEM_LAMICOLOR_1183_INT": "1183-int",
+            "TEXTURE_ITEM_LAMICOLOR_1203_INT": "1203-int",
+            "TEXTURE_ITEM_LAMICOLOR_202": "202",
+            "TEXTURE_ITEM_LAMICOLOR_754": "754",
+            "TEXTURE_ITEM_LAMICOLOR_1007": "1007",
+            "TEXTURE_ITEM_LAMICOLOR_1011": "1011",
+            "TEXTURE_ITEM_LAMICOLOR_1025": "1025",
+            "TEXTURE_ITEM_LAMICOLOR_1060": "1060",
+            "TEXTURE_ITEM_LAMICOLOR_1068": "1068",
+            "TEXTURE_ITEM_LAMICOLOR_1070_LUCIDO": "1070_Lucido",
+            "TEXTURE_ITEM_LAMICOLOR_1078": "1078",
+            "TEXTURE_ITEM_LAMICOLOR_1086": "1086",
+            "TEXTURE_ITEM_LAMICOLOR_1103": "1103",
+            "TEXTURE_ITEM_LAMICOLOR_1106": "1106",
+            "TEXTURE_ITEM_LAMICOLOR_1107": "1107",
+            "TEXTURE_ITEM_LAMICOLOR_1143": "1143",
+            "TEXTURE_ITEM_LAMICOLOR_1176": "1176",
+            "TEXTURE_ITEM_LAMICOLOR_1180": "1180",
+            "TEXTURE_ITEM_LAMICOLOR_1181": "1181",
+            "TEXTURE_ITEM_LAMICOLOR_1183": "1183",
+            "TEXTURE_ITEM_LAMICOLOR_1201": "1201",
+            "TEXTURE_ITEM_LAMICOLOR_1204": "1204",
+            "TEXTURE_ITEM_LAMICOLOR_1328_LUCIDO": "1328_Lucido",
+            "TEXTURE_ITEM_LAMICOLOR_1329": "1329",
+            "TEXTURE_ITEM_LAMICOLOR_1398": "1398",
+            "TEXTURE_ITEM_LAMICOLOR_1596": "1596",
+
+            "TEXTURE_GROUP_PVH": "ПВХ",
+
+            "TEXTURE_ITEM_PVH_MCW0068027": "MCW0068027_Эбен"
+        },
+        "ru": {
+            "ERROR_MESSAGE_LOADING_COLLECTION": "Ошибка при загрузке.",
+            "LOADING_TITLE": "Please wait, loading...",
+            "HEADER_INSIDE_TITLE": "Создание внутренней части шкафа",
+            "HEADER_DOORS_TITLE": "Создание внешней части шкафа",
+            "HEADER_BID_TITLE": "Рассчитать стоимость шкафа-купе",
+            "HEADER_STEP_1": "1",
+            "HEADER_STEP_2": "2",
+            "HEADER_STEP_3": "3",
+            "INSIDE_CREATE_CABINET": "Создать шкаф",
+            "DISABLE_COST_CALCULATION": "Индивидуальный расчет стоимости",
+            "BID_REQUEST_HAS_BEEN_SENT": "Заявка принята.",
+            "BID_REQUEST_ERROR": "Ошибка. Пожалуйста, попробуйте снова.",
+            "CHANGE_WIDTH_INPUT_LABEL": "Ширина",
+            "CHANGE_HEIGHT_INPUT_LABEL": "Высота",
+            "CHANGE_DEPTH_INPUT_LABEL": "Глубина",
+            "BOTTOM_INPUT_LABEL": "Дно",
+            "CEILING_INPUT_LABEL": "Потолок",
+            "NETWORK_ERROR": "Ошибка. Пожалуйста, обновите страницу.",
+            "LEFT_SHELVES_CHECKBOX_LABEL": "Полки слева",
+            "LEFT_REAR_CHECKBOX_LABEL": "Задняя стенка слева",
+            "LEFT_SHELVES_INPUT_LABEL": "",
+            "RIGHT_SHELVES_CHECKBOX_LABEL": "Полки справа",
+            "RIGHT_REAR_CHECKBOX_LABEL": "Задняя стенка справа",
+            "RIGHT_SHELVES_INPUT_LABEL": "",
+            "REAR_CHECKBOX_LABEL": "Задняя стенка",
+            "LEFT_STAND_CHECKBOX_LABEL": "Стойка слева",
+            "RIGHT_STAND_CHECKBOX_LABEL": "Стойка справа",
+            "SHELF_COLOR_PICKER_LABEL": "Цвет",
+            "INSTRUCTION_MAIN_TITLE": "Инструкция",
+            "DOORS_COUNT_LABEL": "Количество дверей",
+            "DOOR_COLOR_LABEL": "Цвет",
+            "HORIZONTAL_BAFFLE_LABEL": "Горизонтальная перегородка дверей",
+            "VERTICAL_BAFFLE_LABEL": "Вертикальная перегородка дверей",
+            "DRAG_CABINET_ITEMS": "Перетащите детали в шкаф",
+            "DOORS_MODIFICATION_COMPLETE": "Завершить редактирование",
+            "DOORS_MODIFICATION_INVERT": "Инвертировать текстуру",
+            "DRAG_DOORS_MATERIAL_LABEL": "Перетащите материалы в двери",
+            "INSTRUCTION_TITLE": "Как работать с онлайн-конструктором?",
+            "INSTRUCTION_SUBTITLE": "Если вы занимаетесь проектированием мебели впервые, рекомендуем ознакомиться с инструкцией по работе с онлайн-калькулятором, чтобы наиболее точно рассчитать стоимость изделия.",
+            "INSTRUCTION_STEP_1_TITLE": "Шаг 1",
+            "INSTRUCTION_STEP_1_DESCRIPTION": "Обозначьте размеры основного короба будущего шкафа (высоту, глубину, ширину). Укажите, нужен ли вашему шкафу пол, потолок, задняя стенка, боковые стойки (для встроенной мебели). Выберите цвет корпуса. Продумайте наличие открытых угловых полок справа и слева и их размеры. Обратите внимание, что ограничений относительно габаритов шкафа практически нет!",
+            "INSTRUCTION_STEP_2_TITLE": "Шаг 2",
+            "INSTRUCTION_STEP_2_DESCRIPTION": "Выберите наполнение шкафа, перетаскивая мышкой нужный элемент в удобное, по вашему мнению, место. Начните с вертикальных перегородок, определив количество отделений в шкафу. При желании установите пантограф, вешалки, вертикальные и горизонтальные трубы, держатели для галстуков и брюк, полки для обуви. Оставшееся пространство заполните ящиками и полками. Или поступите по-другому – начните с определения количества и размеров полок и ящиков, а затем по возможности внесите дополнительные элементы.",
+            "INSTRUCTION_STEP_3_TITLE": "Шаг 3",
+            "INSTRUCTION_STEP_3_DESCRIPTION": "Переходите к внешнему оформлению шкафа-купе. Укажите количество дверей – оно обычно совпадает с числом вертикальных отсеков в шкафу. Выберите материал для дверей (ДСП, стекло или зеркало) и их цвет. При желании можно выполнить комбинированные двери из нескольких материалов, разделенных перегородками. Например, сделать не всю дверь зеркальной, а только две трети, оформив оставшуюся часть дверного полотна ДСП.",
+            "INSTRUCTION_STEP_4_TITLE": "Шаг 4",
+            "INSTRUCTION_STEP_4_DESCRIPTION_PART_1": "Заполните форму, указав свои контактные данные, и отправьте нам заявку на бесплатный расчет стоимости шкафа. В цену будут включены также крепежные элементы и фурнитура, необходимые для реализации вашего проекта.",
+            "INSTRUCTION_STEP_4_DESCRIPTION_PART_2": "После того как вы оформили заявку на шкаф-купе, калькулятор можно закрывать. Сообщение с результатами расчета и точной стоимостью шкафа придет на ваш электронный почтовый ящик. Оцените работу онлайн-конструктора и создайте для себя идеальный шкаф-купе. А мы с удовольствием воплотим в жизнь вашу идею и сделаем вас владельцем эксклюзивной и качественной мебели!",
+            "HORIZONTAL_BAFFLE_COLLECTION_LABEL": "Горизонт. перегородка",
+            "HORIZONTAL_VERTICAL_WALL_LABEL": "Вертикал. перегородка",
+            "ORDINARY_HANGER_LABEL": "Горизонт. труба",
+            "ASCENDING_PIPE_LABEL": "Вертик. труба",
+            "BOX_LABEL": "Ящик",
+            "TIE_LABEL": "Для галстуков",
+            "SHOES_LABEL": "Для обуви",
+            "HANGER_LABEL": "Вешалка",
+            "PANTOGRAPH_LABEL": "Пантограф",
+            "TROUSERS_LABEL": "Для брюк",
+            "ASIDE_PANEL_NEXT": "Далее",
+            "ASIDE_PANEL_DESCRIPTION_STEP_1": "Выбор дверей",
+            "ASIDE_PANEL_DESCRIPTION_STEP_2": "Рассчитать стоимость",
+            "ASIDE_PANEL_REPEAT_TEXT": "Начать заново",
+            "ASIDE_PANEL_HELP_TEXT": "Помощь",
+            "RETURN_TO_INSIDE": "Настройка шкафа",
+            "RETURN_TO_DOORS": "Выбор дверей",
+            "ASIDE_LEFT_TITLE": "Назад",
+            "BID_NAME_INPUT_LABEL": "Ваше имя",
+            "BID_PHONE_INPUT_LABEL": "Телефон*",
+            "BID_EMAIL_INPUT_LABEL": "E-mail",
+            "BID_COMMENTS_INPUT_LABEL": "Комментарий",
+            "BID_CITY_INPUT_LABEL": "Город",
+            "BID_SEND_REQUEST": "Рассчитать стоимость",
+
+            "BID_CABINET_SECTION_TITLE": "Внутренняя часть",
+            "BID_CABINET_SECTION_HEIGHT": "Высота шкафа",
+            "BID_CABINET_SECTION_WIDTH": "Ширина шкафа",
+            "BID_CABINET_SECTION_DEPTH": "Глубина шкафа",
+            "BID_DOORS_SECTION_TITLE": "Фасад",
+            "BID_DOORS_SECTION_DOORS_COUNT": "Количество дверей",
+            "BID_SECTION_MM": "мм",
+
+            "CABINET_COST_LABEL": "Стоимость шкафа",
+            "DOORS_COST_LABEL": "Стоимость дверей",
+            "TOTAL_COST_LABEL": "Общая стоимость",
+            "CABINET_COST_RUB_LABEL": "RUB",
+
+            "TWO_OPTIONS_YES": "Да",
+            "TWO_OPTIONS_NO": "Нет",
+            "CREATE_CABINET_TITLE": "Все элементы будут удалены.",
+            "CREATE_CABINET_SUBTITLE": "Продолжить?",
+            "CONFIRMATION_MODAL_OK": "ОК",
+            "CONFIRMATION_MODAL_DOORS_MIN": "Ширина двери не может быть меньше 450mm.",
+            "CONFIRMATION_MODAL_DOORS_MAX": "Ширина двери не может быть больше 1200mm.",
+            "CONFIRMATION_MODAL_CHOOSE_DOORS_MATERIAL": "Выберите материал для всех дверей.",
+
+            "REPEAT_MODAL_TITLE": "Все элементы будут удалены.",
+            "REPEAT_MODAL_SUBTITLE": "Вы уверены, что хотите начать заново?",
+            "REPEAT_MODAL_CANCEL": "Отмена",
+            "REPEAT_MODAL_CONTINUE": "Начать заново",
+            "TEXTURE_GROUP_MIRROR": "Зеркало",
+
+            "TEXTURE_ITEM_MIRROR_SILVER_MY": "Серебро MY",
+            "TEXTURE_ITEM_MIRROR_BRONZE": "Бронза",
+            "TEXTURE_ITEM_MIRROR_GRAFIT": "Графит",
+            "TEXTURE_ITEM_MIRROR_BLUE": "Голубое",
+            "TEXTURE_ITEM_MIRROR_GREEN22": "Зеленое 22",
+
+            "TEXTURE_GROUP_MY_TEXTURE": "МоиТекстуры",
+
+            "TEXTURE_ITEM_MY_TEXTURE_1": "Моя текстура – 1",
+            "TEXTURE_ITEM_MY_TEXTURE_2": "Моя текстура – 2",
+            "TEXTURE_ITEM_MY_TEXTURE_3": "Моя текстура – 3",
+            "TEXTURE_ITEM_MY_TEXTURE_4": "Моя текстура – 4",
+            "TEXTURE_ITEM_MY_TEXTURE_5": "Моя текстура – 5",
+            "TEXTURE_ITEM_MY_TEXTURE_6": "Моя текстура – 6",
+            "TEXTURE_ITEM_MY_TEXTURE_7": "Моя текстура – 7",
+            "TEXTURE_ITEM_MY_TEXTURE_8": "Моя текстура – 8",
+            "TEXTURE_ITEM_MY_TEXTURE_9": "Моя текстура – 9",
+
+            "TEXTURE_GROUP_SANDSTREAM_2": "Пескоструй 2",
+
+            "TEXTURE_ITEM_SANDSTREAM_2_BAMBUK": "Бамбук",
+            "TEXTURE_ITEM_SANDSTREAM_2_EIFJ_TOWER": "Эйфелева башня",
+            "TEXTURE_ITEM_SANDSTREAM_2_FLOWERS_1": "Цветы-1",
+            "TEXTURE_ITEM_SANDSTREAM_2_FLOWERS_2": "Цветы-2",
+            "TEXTURE_ITEM_SANDSTREAM_2_HOT_GIRL": "Девушка",
+            "TEXTURE_ITEM_SANDSTREAM_2_VENZELIA": "Вензеля",
+
+            "TEXTURE_GROUP_DSP": "ДСП",
+
+            "TEXTURE_ITEM_DSP_H047": "H047",
+            "TEXTURE_ITEM_DSP_H056": "H056",
+            "TEXTURE_ITEM_DSP_H78": "H78",
+            "TEXTURE_ITEM_DSP_H199": "H199",
+            "TEXTURE_ITEM_DSP_H1106": "H1106",
+            "TEXTURE_ITEM_DSP_H1111": "H1111",
+            "TEXTURE_ITEM_DSP_H1129": "H1129",
+            "TEXTURE_ITEM_DSP_H1137": "H1137",
+            "TEXTURE_ITEM_DSP_H1145": "H1145",
+            "TEXTURE_ITEM_DSP_H1189": "H1189",
+            "TEXTURE_ITEM_DSP_H1277": "H1277",
+            "TEXTURE_ITEM_DSP_H1428": "H1428",
+            "TEXTURE_ITEM_DSP_H1476": "H1476",
+            "TEXTURE_ITEM_DSP_H1484": "H1484",
+            "TEXTURE_ITEM_DSP_H1502": "H1502",
+            "TEXTURE_ITEM_DSP_H1511": "H1511",
+            "TEXTURE_ITEM_DSP_H1521": "H1521",
+            "TEXTURE_ITEM_DSP_H1599": "H1599",
+            "TEXTURE_ITEM_DSP_H1698": "H1698",
+            "TEXTURE_ITEM_DSP_H1699": "H1699",
+            "TEXTURE_ITEM_DSP_H3005": "H3005",
+            "TEXTURE_ITEM_DSP_H3006": "H3006",
+            "TEXTURE_ITEM_DSP_H3025": "H3025",
+            "TEXTURE_ITEM_DSP_H3058": "H3058",
+            "TEXTURE_ITEM_DSP_H3078": "H3078",
+            "TEXTURE_ITEM_DSP_H3080": "H3080",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3082": "Pal – Egger H3082",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3090": "Pal – Egger H3090",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3000": "Pal – Egger H3000",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3128": "Pal – Egger H3128",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3100": "Pal – Egger H3100",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3306": "Pal – Egger H3306",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3331": "Pal – Egger H3331",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3300": "Pal – Egger H3300",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3301": "Pal – Egger H3301",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3302": "Pal – Egger H3302",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3303": "Pal – Egger H3303",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3304": "Pal – Egger H3304",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3700": "Pal – Egger H3700",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3702": "Pal – Egger H3702",
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3704": "Pal – Egger H3704",
+            "TEXTURE_ITEM_DSP_H3704": "H3704",
+            "TEXTURE_ITEM_DSP_H087": "H087",
+            "TEXTURE_ITEM_DSP_H1151": "H1151",
+            "TEXTURE_ITEM_DSP_H1215": "H1215",
+            "TEXTURE_ITEM_DSP_H1298": "H1298",
+            "TEXTURE_ITEM_DSP_H1424": "H1424",
+            "TEXTURE_ITEM_DSP_F501": "F501",
+            "TEXTURE_ITEM_DSP_H1615": "H1615",
+            "TEXTURE_ITEM_DSP_H1706": "H1706",
+            "TEXTURE_ITEM_DSP_H1719": "H1719",
+            "TEXTURE_ITEM_DSP_H1720": "H1720",
+            "TEXTURE_ITEM_DSP_H1733": "H1733",
+            "TEXTURE_ITEM_DSP_H1887": "H1887",
+            "TEXTURE_ITEM_DSP_H1950": "H1950",
+            "TEXTURE_ITEM_DSP_H1952": "H1952",
+            "TEXTURE_ITEM_DSP_H3012": "H3012",
+            "TEXTURE_ITEM_DSP_H3031": "H3031",
+            "TEXTURE_ITEM_DSP_H3332": "H3332",
+            "TEXTURE_ITEM_DSP_H3400": "H3400",
+            "TEXTURE_ITEM_DSP_H3734": "H3734",
+            "TEXTURE_ITEM_DSP_H3739": "H3739",
+            "TEXTURE_ITEM_DSP_H3753": "H3753",
+            "TEXTURE_ITEM_DSP_H3755": "H3755",
+            "TEXTURE_ITEM_DSP_H3775": "H3775",
+            "TEXTURE_ITEM_DSP_H3778": "H3778",
+            "TEXTURE_ITEM_DSP_F583": "F583",
+            "TEXTURE_ITEM_DSP_H0562": "H0562",
+            "TEXTURE_ITEM_DSP_H3030": "H3030",
+
+            "TEXTURE_GROUP_DSP_COLOR": "ДСП Color",
+
+            "TEXTURE_ITEM_DSP_COLOR_U999": "U999",
+            "TEXTURE_ITEM_DSP_COLOR_W1000": "W1000",
+            "TEXTURE_ITEM_DSP_COLOR_U328": "U328",
+            "TEXTURE_ITEM_DSP_COLOR_U537": "U537",
+            "TEXTURE_ITEM_DSP_COLOR_U632": "U632",
+            "TEXTURE_ITEM_DSP_COLOR_U143": "U143",
+            "TEXTURE_ITEM_DSP_COLOR_U337": "U337",
+            "TEXTURE_ITEM_DSP_COLOR_U107": "U107",
+            "TEXTURE_ITEM_DSP_COLOR_U330": "U330",
+            "TEXTURE_ITEM_DSP_COLOR_U336": "U336",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U332": "Egger U332",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U400": "Egger U400",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U506": "Egger U506",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U628": "Egger U628",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U730": "Egger U730",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U535": "Egger U535",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U206": "Egger U206",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U147": "Egger U147",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U224": "Egger U224",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U311": "Egger U311",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U321": "Egger U321",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U108": "Egger U108",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U129": "Egger U129",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_F589": "Egger U589",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U630": "Egger U630",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U727": "Egger U727",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U963": "Egger U963",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U518": "Egger U518",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_F459": "Egger F459",
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U540": "Egger U540",
+
+            "TEXTURE_GROUP_GLASS_COLOR": "Стекло Цвет.",
+
+            "TEXTURE_ITEM_GLASS_COLOR_LIME": "Лакобель лиме",
+            "TEXTURE_ITEM_GLASS_COLOR_BLUE": "Лакобель синий",
+            "TEXTURE_ITEM_GLASS_COLOR_GREY": "Лакобель серый",
+            "TEXTURE_ITEM_GLASS_COLOR_ULTRAMARINE": "Лакобель-ультрамарин",
+            "TEXTURE_ITEM_GLASS_COLOR_DARK_RED": "Лакобель-алый",
+            "TEXTURE_ITEM_GLASS_COLOR_WHITE": "Лакобель-белый",
+            "TEXTURE_ITEM_GLASS_COLOR_BIRUZA": "Лакобель-берюза",
+            "TEXTURE_ITEM_GLASS_COLOR_PALE_LIGHT_BLUE": "Лакобель-бледно-голубой",
+            "TEXTURE_ITEM_GLASS_COLOR_PALE_RED": "Лакобель-бледно-красный",
+            "TEXTURE_ITEM_GLASS_COLOR_PALE_BLUE": "Лакобель-бледно-синий",
+            "TEXTURE_ITEM_GLASS_COLOR_PALE": "Лакобель-бледный",
+            "TEXTURE_ITEM_GLASS_COLOR_BORDO": "Лакобель-бордо",
+            "TEXTURE_ITEM_GLASS_COLOR_BURII": "Лакобель-бурый",
+            "TEXTURE_ITEM_GLASS_COLOR_GORCHICH": "Лакобель-горчичный",
+            "TEXTURE_ITEM_GLASS_COLOR_YELLOW": "Лакобель-желтый",
+            "TEXTURE_ITEM_GLASS_COLOR_GREEN_GLAZ": "Лакобель-зеленая-глазурь",
+            "TEXTURE_ITEM_GLASS_COLOR_RED": "Лакобель-красный",
+            "TEXTURE_ITEM_GLASS_COLOR_MALINA": "Лакобель-Малиновый",
+            "TEXTURE_ITEM_GLASS_COLOR_WET": "Лакобель-мокрый",
+            "TEXTURE_ITEM_GLASS_COLOR_OLIVE": "Лакобель-оливка",
+            "TEXTURE_ITEM_GLASS_COLOR_ORANGE": "Лакобель-Оранж",
+            "TEXTURE_ITEM_GLASS_COLOR_PASTELNO_BLUE": "Лакобель-пастельно-голубой",
+            "TEXTURE_ITEM_GLASS_COLOR_SALATOVII": "Лакобель-Салатовый",
+            "TEXTURE_ITEM_GLASS_COLOR_BRIGHT_ORANGE": "Лакобель-светло-оранжевый",
+            "TEXTURE_ITEM_GLASS_COLOR_BRIGHT": "Лакобель-светлый",
+            "TEXTURE_ITEM_GLASS_COLOR_SERIEN": "Лакобель-серень",
+            "TEXTURE_ITEM_GLASS_COLOR_GREY_GREEN": "Лакобель-Серо-зеленый",
+            "TEXTURE_ITEM_GLASS_COLOR_GREY_WITH_DASH": "Лакобель-серый",
+            "TEXTURE_ITEM_GLASS_COLOR_BLUE_GREEN": "Лакобель-Сине-зеленый",
+            "TEXTURE_ITEM_GLASS_COLOR_BLUE_WITH_DASH": "Лакобель-синий",
+            "TEXTURE_ITEM_GLASS_COLOR_DARK_BLUE": "Лакобель-темно-серый",
+            "TEXTURE_ITEM_GLASS_COLOR_DARK_1": "Лакобель-темный",
+            "TEXTURE_ITEM_GLASS_COLOR_DARK_2": "Лакобель-темный",
+            "TEXTURE_ITEM_GLASS_COLOR_HACKI": "Лакобель-хаки",
+            "TEXTURE_ITEM_GLASS_COLOR_BLACK": "Лакобель-черный",
+            "TEXTURE_ITEM_GLASS_COLOR_BRIGHT_1": "Лакобель-яркая",
+            "TEXTURE_ITEM_GLASS_COLOR_BRIGHT_YELLOW": "Лакобель-ярко-желтый",
+
+            "TEXTURE_GROUP_GLASS": "Стекло",
+
+            "TEXTURE_ITEM_GLASS_BRONZE": "Стекло-бронза",
+            "TEXTURE_ITEM_GLASS_TRANSPARENT": "Стекло-прозрачное",
+            "TEXTURE_ITEM_GLASS_16": "Glass-16",
+            "TEXTURE_ITEM_GLASS_17": "Glass-17",
+            "TEXTURE_ITEM_GLASS_18": "Glass-18",
+            "TEXTURE_ITEM_GLASS_19": "Glass-19",
+            "TEXTURE_ITEM_GLASS_1": "Glass-1",
+            "TEXTURE_ITEM_GLASS_2": "Glass-2",
+            "TEXTURE_ITEM_GLASS_3": "Glass-3",
+            "TEXTURE_ITEM_GLASS_4": "Glass-4",
+            "TEXTURE_ITEM_GLASS_5": "Glass-5",
+            "TEXTURE_ITEM_GLASS_6": "Glass-6",
+            "TEXTURE_ITEM_GLASS_7": "Glass-7",
+            "TEXTURE_ITEM_GLASS_8": "Glass-8",
+            "TEXTURE_ITEM_GLASS_9": "Glass-9",
+            "TEXTURE_ITEM_GLASS_10": "Glass-10",
+            "TEXTURE_ITEM_GLASS_11": "Glass-11",
+            "TEXTURE_ITEM_GLASS_12": "Glass-12",
+            "TEXTURE_ITEM_GLASS_13": "Glass-13",
+            "TEXTURE_ITEM_GLASS_14": "Glass-14",
+            "TEXTURE_ITEM_GLASS_15": "Glass-15",
+
+            "TEXTURE_GROUP_SANDSTREAM": "Пескоструй",
+
+            "TEXTURE_ITEM_SANDSTREAM_1": "Пескоструй1",
+            "TEXTURE_ITEM_SANDSTREAM_2": "Песпоструй2",
+            "TEXTURE_ITEM_SANDSTREAM_3": "Песпоструй3",
+            "TEXTURE_ITEM_SANDSTREAM_4": "Пескоструй4",
+            "TEXTURE_ITEM_SANDSTREAM_5": "Пескоструй5",
+            "TEXTURE_ITEM_SANDSTREAM_6": "Пескоструй6",
+            "TEXTURE_ITEM_SANDSTREAM_7": "Пескоструй7",
+
+            "TEXTURE_GROUP_FOTOPRINT": "Фотопечать",
+
+            "TEXTURE_ITEM_FOTOPRINT_BLD_2001": "BLD_2001",
+            "TEXTURE_ITEM_FOTOPRINT_FLW_3003": "FLW_3003",
+            "TEXTURE_ITEM_FOTOPRINT_PRINT_2": "Print-2",
+            "TEXTURE_ITEM_FOTOPRINT_AT_2002": "AT_2002",
+            "TEXTURE_ITEM_FOTOPRINT_ABS_3021": "ABS_3021",
+            "TEXTURE_ITEM_FOTOPRINT_TWN_2006": "TWN_2006",
+            "TEXTURE_ITEM_FOTOPRINT_SEA_3003": "SEA_3003",
+            "TEXTURE_ITEM_FOTOPRINT_TWN_3021": "TWN_3021",
+            "TEXTURE_ITEM_FOTOPRINT_WIN_2005": "WIN_2005",
+            "TEXTURE_ITEM_FOTOPRINT_WTR_2005": "WTR_2005",
+            "TEXTURE_ITEM_FOTOPRINT_WTR_3022": "WTR_3022",
+            "TEXTURE_ITEM_FOTOPRINT_FLW_4001": "FLW_4001",
+            "TEXTURE_ITEM_FOTOPRINT_FOR_2003": "FOR_2003",
+            "TEXTURE_ITEM_FOTOPRINT_FOR_2011": "FOR_2011",
+            "TEXTURE_ITEM_FOTOPRINT_SEA_1006": "SEA_1006",
+            "TEXTURE_ITEM_FOTOPRINT_TWN_2001": "TWN_2001",
+            "TEXTURE_ITEM_FOTOPRINT_ABS_2010": "ABS_2010",
+
+            "TEXTURE_GROUP_BAMBUK": "Бамбук",
+
+            "TEXTURE_ITEM_BAMBUK_2": "Бамбук - 2",
+            "TEXTURE_ITEM_BAMBUK_1": "Бамбук - 1",
+            "TEXTURE_ITEM_BAMBUK_3": "Бамбук - 3",
+            "TEXTURE_ITEM_BAMBUK_LUME_1": "Lume - 1",
+            "TEXTURE_ITEM_BAMBUK_LUME_2": "Lume - 2",
+            "TEXTURE_ITEM_BAMBUK_LUME_3": "Lume - 3",
+            "TEXTURE_ITEM_BAMBUK_LUME_4": "Lume - 4",
+            "TEXTURE_ITEM_BAMBUK_LUME_5": "Lume - 5",
+
+            "TEXTURE_GROUP_ROTANG": "Ротанг",
+
+            "TEXTURE_ITEM_ROTANG_RED": "Красный",
+            "TEXTURE_ITEM_ROTANG_BLUE": "Синий",
+            "TEXTURE_ITEM_ROTANG_WHITE": "Белый",
+            "TEXTURE_ITEM_ROTANG_VENGE": "Венге",
+            "TEXTURE_ITEM_ROTANG_DARK_NUT": "Темн. Орех",
+            "TEXTURE_ITEM_ROTANG_RED_CHERRY": "Рыжая вишня",
+            "TEXTURE_ITEM_ROTANG_HACKI": "Хаки",
+            "TEXTURE_ITEM_ROTANG_NUT": "Орех",
+            "TEXTURE_ITEM_ROTANG_HONEY": "Мед",
+
+            "TEXTURE_GROUP_DECOACRIL": "Декоакрил",
+
+            "TEXTURE_ITEM_DECOACRIL_4": "4",
+            "TEXTURE_ITEM_DECOACRIL_14": "14",
+            "TEXTURE_ITEM_DECOACRIL_46": "46",
+            "TEXTURE_ITEM_DECOACRIL_47": "47",
+            "TEXTURE_ITEM_DECOACRIL_48": "48",
+            "TEXTURE_ITEM_DECOACRIL_49": "49",
+            "TEXTURE_ITEM_DECOACRIL_50": "50",
+            "TEXTURE_ITEM_DECOACRIL_51": "51",
+            "TEXTURE_ITEM_DECOACRIL_3": "3",
+            "TEXTURE_ITEM_DECOACRIL_5": "5",
+            "TEXTURE_ITEM_DECOACRIL_13": "13",
+            "TEXTURE_ITEM_DECOACRIL_15": "15",
+            "TEXTURE_ITEM_DECOACRIL_18": "18",
+            "TEXTURE_ITEM_DECOACRIL_19": "19",
+            "TEXTURE_ITEM_DECOACRIL_25": "25",
+            "TEXTURE_ITEM_DECOACRIL_27": "27",
+            "TEXTURE_ITEM_DECOACRIL_28": "28",
+            "TEXTURE_ITEM_DECOACRIL_29": "29",
+            "TEXTURE_ITEM_DECOACRIL_30": "30",
+            "TEXTURE_ITEM_DECOACRIL_32": "32",
+            "TEXTURE_ITEM_DECOACRIL_43": "43",
+            "TEXTURE_ITEM_DECOACRIL_44": "44",
+            "TEXTURE_ITEM_DECOACRIL_0": "0",
+            "TEXTURE_ITEM_DECOACRIL_1": "1",
+            "TEXTURE_ITEM_DECOACRIL_20": "20",
+            "TEXTURE_ITEM_DECOACRIL_21": "21",
+            "TEXTURE_ITEM_DECOACRIL_22": "22",
+            "TEXTURE_ITEM_DECOACRIL_24": "24",
+            "TEXTURE_ITEM_DECOACRIL_42": "42",
+            "TEXTURE_ITEM_DECOACRIL_45": "45",
+
+            "TEXTURE_GROUP_LEATHER_SIBU": "Кожа SIBU",
+
+            "TEXTURE_ITEM_LEATHER_SIBU_FLORAL_WHITE_SILVER_MAT_LEATHER": "FloralWhiteSilverMatLeather",
+            "TEXTURE_ITEM_LEATHER_SIBU_FLORAL_WHITE_GOLD_MAT_LEATHER": "FloralWhiteGoldMatLeather",
+            "TEXTURE_ITEM_LEATHER_SIBU_FLORAL_BLACK_SILVER_MAT_LEATHER": "FloralBlackSilverMatLeather",
+            "TEXTURE_ITEM_LEATHER_SIBU_FLORAL_BLACK_LEATHER": "FloralBlackLeather",
+            "TEXTURE_ITEM_LEATHER_SIBU_NERO_SILVER": "NeroSilver",
+            "TEXTURE_ITEM_LEATHER_SIBU_ALISE_WHITE_GOLD": "Alise White Gold",
+            "TEXTURE_ITEM_LEATHER_SIBU_ALISE_WHITE_SILVER": "Alise White Silver",
+            "TEXTURE_ITEM_LEATHER_SIBU_ALISE_VINTAGE_BLACK": "Alise Vintage Black",
+            "TEXTURE_ITEM_LEATHER_SIBU_ALISE_VINTAGE_COOPER": "Alise Vintage Cooper",
+            "TEXTURE_ITEM_LEATHER_SIBU_IMPERIAL_BLACK_SILVER": "Imperial Black Silver",
+            "TEXTURE_ITEM_LEATHER_SIBU_IMPERIAL_VINTAGE_BLACK": "Imperial Vintage Black",
+            "TEXTURE_ITEM_LEATHER_SIBU_CROCCO_WHITE_LEATHER": "CroccoWhiteLeather",
+            "TEXTURE_ITEM_LEATHER_SIBU_CROCCO_CREME_LEATHER": "CroccoCremeLeather",
+            "TEXTURE_ITEM_LEATHER_SIBU_COLLAGE_MOCCA": "CollageMocca",
+            "TEXTURE_ITEM_LEATHER_SIBU_COLLAGE_ORO": "CollageOro",
+            "TEXTURE_ITEM_LEATHER_SIBU_COLLAGE_NERO": "CollageNero",
+            "TEXTURE_ITEM_LEATHER_SIBU_BIANCO_SILVER": "BiancoSilver",
+            "TEXTURE_ITEM_LEATHER_SIBU_SIBU_PELO_SAVANNA": "Sibu PELO Savanna",
+            "TEXTURE_ITEM_LEATHER_SIBU_BEIGE_SILVER_MAT": "Beige Silver Mat",
+            "TEXTURE_ITEM_LEATHER_SIBU_LL_QUADRO_CREME": "LL QUADRO Creme",
+            "TEXTURE_ITEM_LEATHER_SIBU_ROMBO40_CREME": "Rombo40_Creme",
+
+            "TEXTURE_GROUP_LEATHER": "Кожа",
+
+            "TEXTURE_ITEM_LEATHER_6": "Кожа -6",
+            "TEXTURE_ITEM_LEATHER_7": "Кожа-7",
+            "TEXTURE_ITEM_LEATHER_8": "Кожа-8",
+            "TEXTURE_ITEM_LEATHER_9": "Кожа -9",
+            "TEXTURE_ITEM_LEATHER_10": "Кожа -10",
+            "TEXTURE_ITEM_LEATHER_11": "Кожа -11",
+            "TEXTURE_ITEM_LEATHER_12": "Кожа -12",
+            "TEXTURE_ITEM_LEATHER_13": "Кожа -13",
+            "TEXTURE_ITEM_LEATHER_14": "Кожа -14",
+            "TEXTURE_ITEM_LEATHER_15": "Кожа -15",
+            "TEXTURE_ITEM_LEATHER_16": "Кожа -16",
+            "TEXTURE_ITEM_LEATHER_17": "Кожа -17",
+            "TEXTURE_ITEM_LEATHER_18": "Кожа -18",
+            "TEXTURE_ITEM_LEATHER_19": "Кожа -19",
+            "TEXTURE_ITEM_LEATHER_20": "Кожа -20",
+            "TEXTURE_ITEM_LEATHER_21": "Кожа -21",
+            "TEXTURE_ITEM_LEATHER_22": "Кожа -22",
+            "TEXTURE_ITEM_LEATHER_24": "Кожа -24",
+            "TEXTURE_ITEM_LEATHER_23": "Кожа -23",
+            "TEXTURE_ITEM_LEATHER_25": "Кожа -25",
+            "TEXTURE_ITEM_LEATHER_26": "Кожа -26",
+            "TEXTURE_ITEM_LEATHER_27": "Кожа -27",
+            "TEXTURE_ITEM_LEATHER_28": "Кожа -28",
+            "TEXTURE_ITEM_LEATHER_29": "Кожа -29",
+            "TEXTURE_ITEM_LEATHER_30": "Кожа -30",
+            "TEXTURE_ITEM_LEATHER_31": "Кожа -31",
+            "TEXTURE_ITEM_LEATHER_32": "Кожа -32",
+            "TEXTURE_ITEM_LEATHER_33": "Кожа -33",
+            "TEXTURE_ITEM_LEATHER_34": "Кожа -34",
+            "TEXTURE_ITEM_LEATHER_35": "Кожа -35",
+            "TEXTURE_ITEM_LEATHER_36": "Кожа -36",
+            "TEXTURE_ITEM_LEATHER_37": "Кожа -37",
+            "TEXTURE_ITEM_LEATHER_38": "Кожа -38",
+            "TEXTURE_ITEM_LEATHER_39": "Кожа -39",
+            "TEXTURE_ITEM_LEATHER_40": "Кожа -40",
+            "TEXTURE_ITEM_LEATHER_41": "Кожа -41",
+            "TEXTURE_ITEM_LEATHER_42": "Кожа -42",
+            "TEXTURE_ITEM_LEATHER_43": "Кожа -43",
+            "TEXTURE_ITEM_LEATHER_44": "Кожа -44",
+            "TEXTURE_ITEM_LEATHER_45": "Кожа -45",
+            "TEXTURE_ITEM_LEATHER_46": "Кожа -46",
+            "TEXTURE_ITEM_LEATHER_47": "Кожа -47",
+            "TEXTURE_ITEM_LEATHER_48": "Кожа -48",
+            "TEXTURE_ITEM_LEATHER_49": "Кожа -49",
+            "TEXTURE_ITEM_LEATHER_50": "Кожа -50",
+            "TEXTURE_ITEM_LEATHER_51": "Кожа -51",
+            "TEXTURE_ITEM_LEATHER_52": "Кожа -52",
+            "TEXTURE_ITEM_LEATHER_53": "Кожа -53",
+            "TEXTURE_ITEM_LEATHER_54": "Кожа -54",
+            "TEXTURE_ITEM_LEATHER_55": "Кожа-55",
+            "TEXTURE_ITEM_LEATHER_56": "Кожа-56",
+            "TEXTURE_ITEM_LEATHER_57": "Кожа-57",
+            "TEXTURE_ITEM_LEATHER_58": "Кожа-58",
+            "TEXTURE_ITEM_LEATHER_59": "Кожа-59",
+
+            "TEXTURE_GROUP_LEATHER_NATURAL": "Кожа Натур.",
+
+            "TEXTURE_ITEM_LEATHER_NATURAL_ZEBRA": "Зебра",
+            "TEXTURE_ITEM_LEATHER_NATURAL_CROCODILE_WHITE": "крокодил-белый",
+            "TEXTURE_ITEM_LEATHER_NATURAL_CROCODILE_BLACK": "крокодил-черный",
+            "TEXTURE_ITEM_LEATHER_NATURAL_CROCODILE_CREAME": "крокодил-кремов",
+            "TEXTURE_ITEM_LEATHER_NATURAL_CROCODILE_BROWN": "крокодил-коричн",
+            "TEXTURE_ITEM_LEATHER_NATURAL_CROCODILE_BRIGHT": "крокодил-светло",
+
+            "TEXTURE_GROUP_ORCHARD": "ORCHARD",
+
+            "TEXTURE_ITEM_ORCHARD_DMCD0332005": "MCD0332005_Флоренция Белая",
+            "TEXTURE_ITEM_ORCHARD_DMCD0333007": "MCD0333007_Флоренция Черная",
+            "TEXTURE_ITEM_ORCHARD_DMCD0343073": "MCD0343073_Лаванда Розовая",
+            "TEXTURE_ITEM_ORCHARD_DMCD0344073": "MCD0344073_Лаванда-Бронзовая",
+            "TEXTURE_ITEM_ORCHARD_DMCD0335073": "MCD0335073_Лаванда-Белая",
+            "TEXTURE_ITEM_ORCHARD_DMCD0336073": "MCD0336073_Лаванда-Сиреневая",
+            "TEXTURE_ITEM_ORCHARD_DMCD0337073": "MCD0337073_Лаванда-Сизая",
+            "TEXTURE_ITEM_ORCHARD_DMCD0338073": "MCD0338073_Лаванда-Черная",
+            "TEXTURE_ITEM_ORCHARD_DMCD0339073": "MCD0339073_Лаванда-Жемчужная",
+            "TEXTURE_ITEM_ORCHARD_DMCD0340073": "MCD0340073_Лаванда-Лазурная",
+            "TEXTURE_ITEM_ORCHARD_DMCD0341073": "MCD0341073_Лаванда-Эвкалипт",
+            "TEXTURE_ITEM_ORCHARD_DMCD0342073": "MCD0342073_Лаванда-Стальная",
+            "TEXTURE_ITEM_ORCHARD_DMCD0352073": "MCD0352073_Лаванда-Красная",
+
+            "TEXTURE_GROUP_VITRAZH": "Витраж",
+
+            "TEXTURE_ITEM_VITRAZH_ROMBI": "Ромбы",
+            "TEXTURE_ITEM_VITRAZH_1": "Витраж 1",
+            "TEXTURE_ITEM_VITRAZH_4": "Витраж 4",
+            "TEXTURE_ITEM_VITRAZH_3": "Витраж 3",
+            "TEXTURE_ITEM_VITRAZH_2": "Витраж 2",
+            "TEXTURE_ITEM_VITRAZH_5": "Витраж 5",
+
+            "TEXTURE_GROUP_RESOPAL": "Resopal",
+
+            "TEXTURE_ITEM_RESOPAL_VIOLA": "Resopal Viola",
+            "TEXTURE_ITEM_RESOPAL_ORCHID": "Resopal Orchid",
+            "TEXTURE_ITEM_RESOPAL_AVOCADO": "Resopal Avocado",
+            "TEXTURE_ITEM_RESOPAL_BEAVER": "Resopal Beaver",
+            "TEXTURE_ITEM_RESOPAL_SILICA": "Resopal Silica",
+            "TEXTURE_ITEM_RESOPAL_SNOW": "Resopal Snow",
+            "TEXTURE_ITEM_RESOPAL_BLACK": "Resopal Black",
+            "TEXTURE_ITEM_RESOPAL_PORT": "Resopal Port",
+            "TEXTURE_ITEM_RESOPAL_U08269": "Resopal U08269-60",
+            "TEXTURE_ITEM_RESOPAL_U08440": "Resopal U08440-60-2",
+            "TEXTURE_ITEM_RESOPAL_U08438": "Resopal U08438-60",
+            "TEXTURE_ITEM_RESOPAL_U08441": "Resopal U08441-60",
+            "TEXTURE_ITEM_RESOPAL_U08265": "Resopal U08265-60",
+            "TEXTURE_ITEM_RESOPAL_U08565": "Resopal U08565-60",
+
+            "TEXTURE_GROUP_GLOSSPANEL": "Glosspanel",
+
+
+            "TEXTURE_ITEM_GLOSSPANEL_VIOLETS": "Фиалки",
+            "TEXTURE_ITEM_GLOSSPANEL_76264_D60": "76264-d60",
+            "TEXTURE_ITEM_GLOSSPANEL_67967_D1058": "67967-d1.058",
+            "TEXTURE_ITEM_GLOSSPANEL_78279": "78279-d1.059",
+            "TEXTURE_ITEM_GLOSSPANEL_WHITE_ROZES": "Розы-белые",
+            "TEXTURE_ITEM_GLOSSPANEL_BISER_BLACK": "Бисер-черный",
+            "TEXTURE_ITEM_GLOSSPANEL_BISER_BORDO": "Бисер-бордовый",
+            "TEXTURE_ITEM_GLOSSPANEL_CHRIZANTEM": "Хризантема",
+            "TEXTURE_ITEM_GLOSSPANEL_MAK": "Мак",
+            "TEXTURE_ITEM_GLOSSPANEL_MONGOLIA": "Магнолия",
+            "TEXTURE_ITEM_GLOSSPANEL_LILY_GRAPHIC": "Лилии-графические",
+            "TEXTURE_ITEM_GLOSSPANEL_LILY_SEPIA": "Лилии-сепия",
+            "TEXTURE_ITEM_GLOSSPANEL_ROZES_COLOR": "Pозы-цветные",
+            "TEXTURE_ITEM_GLOSSPANEL_ROMB_COLOR": "Ромбы-цветные",
+            "TEXTURE_ITEM_GLOSSPANEL_PLIUZCH_BURGUNDUNSKI": "Плющ-бургундски",
+            "TEXTURE_ITEM_GLOSSPANEL_76957_D1007": "76957-d1.007",
+            "TEXTURE_ITEM_GLOSSPANEL_V1589_D1006": "v1589-d1.006",
+            "TEXTURE_ITEM_GLOSSPANEL_61753_D1014": "61753-d1.014",
+            "TEXTURE_ITEM_GLOSSPANEL_76173_D1016": "76173-d1.016",
+            "TEXTURE_ITEM_GLOSSPANEL_76490_D1056": "76490-d1.056",
+            "TEXTURE_ITEM_GLOSSPANEL_76264_D30": "76264-d30",
+            "TEXTURE_ITEM_GLOSSPANEL_76264_D1002": "76264-d1.002",
+            "TEXTURE_ITEM_GLOSSPANEL_76173_D1065": "76173-d1.065",
+            "TEXTURE_ITEM_GLOSSPANEL_77024_D1057": "77024-d1.057",
+            "TEXTURE_ITEM_GLOSSPANEL_67790_D10011": "67790-d1.001-1",
+            "TEXTURE_ITEM_GLOSSPANEL_62524_D1060": "62524-d1.060",
+            "TEXTURE_ITEM_GLOSSPANEL_61753_D1023": "61753-d1.023",
+            "TEXTURE_ITEM_GLOSSPANEL_67967_D1026": "67967-d1.026",
+
+            "TEXTURE_GROUP_FORMICA": "Formica",
+
+            "TEXTURE_ITEM_FORMICA_ANTIQUE_WHITE": "Antique-White",
+            "TEXTURE_ITEM_FORMICA_BOHEMIA": "Bohemia",
+            "TEXTURE_ITEM_FORMICA_CHINA_BLUY": "China-Bluу",
+            "TEXTURE_ITEM_FORMICA_TROPICAL_BLUE": "Tropical-Blue",
+            "TEXTURE_ITEM_FORMICA_SPECTRUM_BLUE": "Spectrum-Blue",
+            "TEXTURE_ITEM_FORMICA_CASSIS": "Cassis",
+            "TEXTURE_ITEM_FORMICA_CHROME_YELLOW": "Chrome-Yellow",
+            "TEXTURE_ITEM_FORMICA_LEVANTE": "Levante",
+            "TEXTURE_ITEM_FORMICA_CLEMENTINE": "Clementine",
+            "TEXTURE_ITEM_FORMICA_JUICY_PINK": "Juicy-pink",
+            "TEXTURE_ITEM_FORMICA_CARNAVAL": "Carnaval",
+            "TEXTURE_ITEM_FORMICA_BORDEAUX": "Bordeaux",
+            "TEXTURE_ITEM_FORMICA_KASHMIR": "Kashmir",
+            "TEXTURE_ITEM_FORMICA_DARK_CHOCOLATE": "Dark-Chocolate",
+            "TEXTURE_ITEM_FORMICA_VERVE": "Verve",
+            "TEXTURE_ITEM_FORMICA_RICH_GREEN": "Rich-green",
+            "TEXTURE_ITEM_FORMICA_OCEAN_GREY": "Ocean-Grey",
+            "TEXTURE_ITEM_FORMICA_STORM": "Storm",
+            "TEXTURE_ITEM_FORMICA_U_GREY": "U.-Grey",
+            "TEXTURE_ITEM_FORMICA_DIAMOND": "Diamond-Black",
+
+            "TEXTURE_GROUP_LAMICOLOR": "Lamicolor глян.",
+
+            "TEXTURE_ITEM_LAMICOLOR_202_INT": "202-int",
+            "TEXTURE_ITEM_LAMICOLOR_751_INT": "751-int",
+            "TEXTURE_ITEM_LAMICOLOR_1175_INT": "1175-int",
+            "TEXTURE_ITEM_LAMICOLOR_1183_INT": "1183-int",
+            "TEXTURE_ITEM_LAMICOLOR_1203_INT": "1203-int",
+            "TEXTURE_ITEM_LAMICOLOR_202": "202",
+            "TEXTURE_ITEM_LAMICOLOR_754": "754",
+            "TEXTURE_ITEM_LAMICOLOR_1007": "1007",
+            "TEXTURE_ITEM_LAMICOLOR_1011": "1011",
+            "TEXTURE_ITEM_LAMICOLOR_1025": "1025",
+            "TEXTURE_ITEM_LAMICOLOR_1060": "1060",
+            "TEXTURE_ITEM_LAMICOLOR_1068": "1068",
+            "TEXTURE_ITEM_LAMICOLOR_1070_LUCIDO": "1070_Lucido",
+            "TEXTURE_ITEM_LAMICOLOR_1078": "1078",
+            "TEXTURE_ITEM_LAMICOLOR_1086": "1086",
+            "TEXTURE_ITEM_LAMICOLOR_1103": "1103",
+            "TEXTURE_ITEM_LAMICOLOR_1106": "1106",
+            "TEXTURE_ITEM_LAMICOLOR_1107": "1107",
+            "TEXTURE_ITEM_LAMICOLOR_1143": "1143",
+            "TEXTURE_ITEM_LAMICOLOR_1176": "1176",
+            "TEXTURE_ITEM_LAMICOLOR_1180": "1180",
+            "TEXTURE_ITEM_LAMICOLOR_1181": "1181",
+            "TEXTURE_ITEM_LAMICOLOR_1183": "1183",
+            "TEXTURE_ITEM_LAMICOLOR_1201": "1201",
+            "TEXTURE_ITEM_LAMICOLOR_1204": "1204",
+            "TEXTURE_ITEM_LAMICOLOR_1328_LUCIDO": "1328_Lucido",
+            "TEXTURE_ITEM_LAMICOLOR_1329": "1329",
+            "TEXTURE_ITEM_LAMICOLOR_1398": "1398",
+            "TEXTURE_ITEM_LAMICOLOR_1596": "1596",
+
+            "TEXTURE_GROUP_PVH": "ПВХ",
+
+            "TEXTURE_ITEM_PVH_MCW0068027": "MCW0068027_Эбен"
+        }
+    },
+
+    "doorsTextures": {
+        "TEXTURE_GROUP_MIRROR": {
+            "TEXTURE_ITEM_MIRROR_SILVER_MY": {
+                "url": "images/doors/textures/mirror/0119265821c91e99facb7a39eeb43a05.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_MIRROR_BRONZE": {
+                "url": "images/doors/textures/mirror/ebc429120fa1a3cb142661d7df5a85f6.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_MIRROR_GRAFIT": {
+                "url": "images/doors/textures/mirror/9ff36b502b8ac5a5d93b6f2291a12edd.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_MIRROR_BLUE": {
+                "url": "images/doors/textures/mirror/a1d6069f8a98950502d99107a708118a.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_MIRROR_GREEN22": {
+                "url": "images/doors/textures/mirror/a9e375748e75d01df3356c5b08a47c5e.jpg",
+                "type": "default",
+                "cost": 2
+            }
+        },
+
+        "TEXTURE_GROUP_MY_TEXTURE": {
+            "TEXTURE_ITEM_MY_TEXTURE_1": {
+                "url": "images/doors/textures/mytexture/ed1f020216e12f56ceb6a34b40ecbae8.jpg",
+                "type": "default",
+                "cost": 100
+            },
+            "TEXTURE_ITEM_MY_TEXTURE_2": {
+                "url": "images/doors/textures/mytexture/75de4ea63e856d498131ef39c23fc03e.jpg",
+                "type": "default",
+                "cost": 100
+            },
+            "TEXTURE_ITEM_MY_TEXTURE_3": {
+                "url": "images/doors/textures/mytexture/93f738352b93fbc095e7e03e435bf173.jpg",
+                "type": "default",
+                "cost": 100
+            },
+            "TEXTURE_ITEM_MY_TEXTURE_4": {
+                "url": "images/doors/textures/mytexture/fe6b69e273d48ba9e6f35fc25f57584f.jpg",
+                "type": "default",
+                "cost": 100
+            },
+            "TEXTURE_ITEM_MY_TEXTURE_5": {
+                "url": "images/doors/textures/mytexture/8c51f34926ef329666fcbd44ad531cdf.jpg",
+                "type": "default",
+                "cost": 100
+            },
+            "TEXTURE_ITEM_MY_TEXTURE_6": {
+                "url": "images/doors/textures/mytexture/14cc339adeb5d44a4bcf1d4a98460d8a.jpg",
+                "type": "default",
+                "cost": 100
+            },
+            "TEXTURE_ITEM_MY_TEXTURE_7": {
+                "url": "images/doors/textures/mytexture/0010ee9ad8edd865e565b2367070d8ac.jpg",
+                "type": "default",
+                "cost": 100
+            },
+            "TEXTURE_ITEM_MY_TEXTURE_8": {
+                "url": "images/doors/textures/mytexture/d8e9591a9f83892011ccfbe7291b2060.jpg",
+                "type": "default",
+                "cost": 100
+            },
+            "TEXTURE_ITEM_MY_TEXTURE_9": {
+                "url": "images/doors/textures/mytexture/ee596a1cdd263f0ddc6b2b5c5dd50cb8.jpg",
+                "type": "default",
+                "cost": 100
+            }
+        },
+
+        "TEXTURE_GROUP_SANDSTREAM_2": {
+            "TEXTURE_ITEM_SANDSTREAM_2_BAMBUK": {
+                "url": "images/doors/textures/sandstream2/e02d1dc08418630d5865e9b682dfaffd.jpg",
+                "type": "door",
+                "cost": 1200
+            },
+            "TEXTURE_ITEM_SANDSTREAM_2_EIFJ_TOWER": {
+                "url": "images/doors/textures/sandstream2/dd6b3fc036aa32065d1006dcc5b685a9.jpg",
+                "type": "door",
+                "cost": 1200
+            },
+            "TEXTURE_ITEM_SANDSTREAM_2_FLOWERS_1": {
+                "url": "images/doors/textures/sandstream2/2e615eda93b4b47c6bc7e138548436c1.jpg",
+                "type": "door",
+                "cost": 1200
+            },
+            "TEXTURE_ITEM_SANDSTREAM_2_FLOWERS_2": {
+                "url": "images/doors/textures/sandstream2/a28cac1f5aeb6a23a60c2ad0f1bdc86a.jpg",
+                "type": "door",
+                "cost": 1200
+            },
+            "TEXTURE_ITEM_SANDSTREAM_2_HOT_GIRL": {
+                "url": "images/doors/textures/sandstream2/53a99129bcb6dd477ff4df61df55cd49.jpg",
+                "type": "door",
+                "cost": 1300
+            },
+            "TEXTURE_ITEM_SANDSTREAM_2_VENZELIA": {
+                "url": "images/doors/textures/sandstream2/fd55dedc911650f9d80108b3a54bf379.jpg",
+                "type": "door",
+                "cost": 1200
+            }
+        },
+
+        "TEXTURE_GROUP_DSP": {
+            "TEXTURE_ITEM_DSP_H047": {
+                "url": "images/doors/textures/dsp/e911efd242f103c1b071771b19fc0111.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H056": {
+                "url": "images/doors/textures/dsp/690f48758a5224632e149b40ed6f7431.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H78": {
+                "url": "images/doors/textures/dsp/87dd83536cd2b1e40f729f4498c9664a.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H199": {
+                "url": "images/doors/textures/dsp/36b70858b99fd5c3a292071dd11fb72d.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1106": {
+                "url": "images/doors/textures/dsp/2bc801e35e3cb88ad534f09c6ad457c0.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1111": {
+                "url": "images/doors/textures/dsp/20c09cfcd33b12375d45c441dd89f2ec.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1129": {
+                "url": "images/doors/textures/dsp/625f8388d98d63f536fc42f71fde27b4.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1137": {
+                "url": "images/doors/textures/dsp/97d00be73285b52cbc1cededd67c3b8c.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1145": {
+                "url": "images/doors/textures/dsp/7240bdc985baa0cc15b4c8987a64282e.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1189": {
+                "url": "images/doors/textures/dsp/4f92982d1cc5f4c99472f45b3966c544.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1277": {
+                "url": "images/doors/textures/dsp/8a01c50021c7f83f34c5843dae3ca4f5.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1428": {
+                "url": "images/doors/textures/dsp/504e4e8c00514cd6ef50042403bca1e2.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1476": {
+                "url": "images/doors/textures/dsp/4dab105be38125770f0bf37d16cc851b.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1484": {
+                "url": "images/doors/textures/dsp/c20d0e9cfb3687d36d549f3a61672798.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1502": {
+                "url": "images/doors/textures/dsp/116ff037cf5952cbe05fe2bb58de07ba.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1511": {
+                "url": "images/doors/textures/dsp/ceb606f3323f202a2c36d63cf33426bd.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1521": {
+                "url": "images/doors/textures/dsp/67b9ebf38f7e7ae8bc956ab2bbe4b1c5.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1599": {
+                "url": "images/doors/textures/dsp/2c4c35c3899889cbe2bc0f627ec4acbc.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1698": {
+                "url": "images/doors/textures/dsp/3fef12fcab72d3cb278168ee8688bb4d.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1699": {
+                "url": "images/doors/textures/dsp/f5eeb12e1e079a9cceae254d791af712.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H3005": {
+                "url": "images/doors/textures/dsp/ba8deb74258c45775ca17e3b4ff92d5d.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H3006": {
+                "url": "images/doors/textures/dsp/c6511f62e140feec8e68f412a91f4191.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H3025": {
+                "url": "images/doors/textures/dsp/4307f46e2149973d9f3c4c812909c5d1.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H3058": {
+                "url": "images/doors/textures/dsp/38ec8987995a5601c7b5bbf3310967bf.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H3078": {
+                "url": "images/doors/textures/dsp/f28120960f6cf16a5b5d94cc35d11892.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H3080": {
+                "url": "images/doors/textures/dsp/a70c2719123128f7a646bdcf33b68b96.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3082": {
+                "url": "images/doors/textures/dsp/e851625203c07e8023aef6648d3fc1ed.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3090": {
+                "url": "images/doors/textures/dsp/b2177efaf0c74c1c9d9784d81b59bd9d.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3000": {
+                "url": "images/doors/textures/dsp/4649c0577493dfa67a3697e58fd2d0af.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3128": {
+                "url": "images/doors/textures/dsp/7fa7133424e795081c781c7e851d3b5a.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3100": {
+                "url": "images/doors/textures/dsp/affd4ca45bb5b4c6892e9b6714c27cc6.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3306": {
+                "url": "images/doors/textures/dsp/f6fdb82990d121f61eae80e262108293.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3331": {
+                "url": "images/doors/textures/dsp/5284dc7b2cfe116a08aeefde3107340b.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3300": {
+                "url": "images/doors/textures/dsp/3c3c22a6a25a0249664f9ab7edfadcb0.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3301": {
+                "url": "images/doors/textures/dsp/1acb4b0afb93f58df8b51bf8f98a9a30.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3302": {
+                "url": "images/doors/textures/dsp/955266629c00750b6967f2896cb3bfe4.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3303": {
+                "url": "images/doors/textures/dsp/08c8f94d181093e5fb13012e41ef0731.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3304": {
+                "url": "images/doors/textures/dsp/27ad68a4f153e82df3a78e291ff52474.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3700": {
+                "url": "images/doors/textures/dsp/0cd1ce12ef31f297505b7ca590f5b006.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3702": {
+                "url": "images/doors/textures/dsp/94116b14f09e28cc264e87e1350fa068.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_PAL_EGGER_H3704": {
+                "url": "images/doors/textures/dsp/b2220e2560b0519d938d37cf5a71e661.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H3704": {
+                "url": "images/doors/textures/dsp/40bfcbb60a387201aa2ba2f39718ebd4.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H087": {
+                "url": "images/doors/textures/dsp/bb0cad768ef5f0be8e0f0004f4d915a8.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1151": {
+                "url": "images/doors/textures/dsp/8594b7d824e2b7484c12c38f3a4fc92e.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1215": {
+                "url": "images/doors/textures/dsp/798b9ceb805a2efd13404911c36fd533.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1298": {
+                "url": "images/doors/textures/dsp/147bb45d167b9ea6a1045f32e18712ab.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1424": {
+                "url": "images/doors/textures/dsp/396bfd6f47a388e1c23ac20087692f9d.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_F501": {
+                "url": "images/doors/textures/dsp/2c87cadfe2ccff1606e99fe691479365.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1615": {
+                "url": "images/doors/textures/dsp/fbf730f447674aa1b04f5b5fc71b23b8.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1706": {
+                "url": "images/doors/textures/dsp/0a39de705c7b834af0558b3cbbb62b57.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1719": {
+                "url": "images/doors/textures/dsp/bf8c36106f4c166bda7c6dca2b4e30fd.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1720": {
+                "url": "images/doors/textures/dsp/b01d86702099def149ab7bf237399284.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1733": {
+                "url": "images/doors/textures/dsp/d0d1ea56309730f5e886e226aee51485.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1887": {
+                "url": "images/doors/textures/dsp/071c63c0a4f8657c6819a683b5bac815.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1950": {
+                "url": "images/doors/textures/dsp/e7d50c4a36eeae7d44da246d626015bf.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H1952": {
+                "url": "images/doors/textures/dsp/b91a316a1bf3d3e5326df2d40823fbcf.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H3012": {
+                "url": "images/doors/textures/dsp/c32cac27da082a7de523a1df88317309.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H3031": {
+                "url": "images/doors/textures/dsp/0e4eb256ec97930102c04d971c7ed042.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H3332": {
+                "url": "images/doors/textures/dsp/5b7ce4bccda44f8890d4adc41f2874e4.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H3400": {
+                "url": "images/doors/textures/dsp/f5926d062e987cadc40b6a4978cfe25c.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H3734": {
+                "url": "images/doors/textures/dsp/8efbb8def77277a185cf5f5b2f5b2c74.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H3739": {
+                "url": "images/doors/textures/dsp/51c716ccc5f2db2b6014a5634ddd92af.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H3753": {
+                "url": "images/doors/textures/dsp/c2429a45392d98ce32812b7891540328.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H3755": {
+                "url": "images/doors/textures/dsp/0fa63482786c96dc50834bfd31d5db88.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H3775": {
+                "url": "images/doors/textures/dsp/7c29f1b78a64ed73607176db73511917.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H3778": {
+                "url": "images/doors/textures/dsp/e8ba245777d53016bf78fcfe8366e61d.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_F583": {
+                "url": "images/doors/textures/dsp/69be79354b906988e52c544c690cbdaa.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H0562": {
+                "url": "images/doors/textures/dsp/c34bc8fcb3182f6475b97b2698f5a421.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_H3030": {
+                "url": "images/doors/textures/dsp/75e9a0aec8d458bb164a4af6a814ddf0.jpg",
+                "type": "default",
+                "cost": 2
+            }
+        },
+
+        "TEXTURE_GROUP_DSP_COLOR": {
+            "TEXTURE_ITEM_DSP_COLOR_U999": {
+                "url": "images/doors/textures/dsp_color/5e1814d0b924bb6b38c2fafde34846e4.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_W1000": {
+                "url": "images/doors/textures/dsp_color/f28bf0662dfe9593104f1977a372e9e3.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_U328": {
+                "url": "images/doors/textures/dsp_color/e4c0b738e667deb46dca8daca5008798.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_U537": {
+                "url": "images/doors/textures/dsp_color/dbc1e8c3f229cb41385a9cecb5be43d7.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_U632": {
+                "url": "images/doors/textures/dsp_color/eea33a469909f67ca8e84a44c8afe2c9.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_U143": {
+                "url": "images/doors/textures/dsp_color/68cae350cdd53627dbac49b7bb9fcfc0.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_U337": {
+                "url": "images/doors/textures/dsp_color/ce70fd58b178be37957ce1f29a82c7e9.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_U107": {
+                "url": "images/doors/textures/dsp_color/e69e3c598ec24de3cb69bca9a5ce77e7.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_U330": {
+                "url": "images/doors/textures/dsp_color/279ba8ed9347a17b9b0161a4280bf0d2.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_U336": {
+                "url": "images/doors/textures/dsp_color/c9191ef924402dd61cfb37a273da84cb.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U332": {
+                "url": "images/doors/textures/dsp_color/48f280462be605740011599a70a7ee2d.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U400": {
+                "url": "images/doors/textures/dsp_color/27e6d22279a0c404f354dfecc2b913cc.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U506": {
+                "url": "images/doors/textures/dsp_color/5b5a18b2cf76f501c004f592be723747.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U628": {
+                "url": "images/doors/textures/dsp_color/a8a9d7736b211a579eec2933a0563521.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U730": {
+                "url": "images/doors/textures/dsp_color/04501ecae020c015776875c36af34c57.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U535": {
+                "url": "images/doors/textures/dsp_color/1005cbc0b53b0a6e001989efd3839564.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U206": {
+                "url": "images/doors/textures/dsp_color/7e0f625bb85ed74a4d6e18f2357e04cf.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U147": {
+                "url": "images/doors/textures/dsp_color/a7807795779327d76389874736642484.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U224": {
+                "url": "images/doors/textures/dsp_color/157d989e3effaa046db36c795c0a3ca4.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U311": {
+                "url": "images/doors/textures/dsp_color/9ede2c855e47835cf94ff9d524e1a916.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U321": {
+                "url": "images/doors/textures/dsp_color/6713a08d41a90b4821729680abb0653b.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U108": {
+                "url": "images/doors/textures/dsp_color/8dc7c79ee4b37655f7da1771f285d81a.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U129": {
+                "url": "images/doors/textures/dsp_color/e70ff125432549424107d5a66f2ee80f.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_F589": {
+                "url": "images/doors/textures/dsp_color/4b5e2c43698fd9977fb03c163092849f.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U630": {
+                "url": "images/doors/textures/dsp_color/744480322cbfa545c5b3d94febb8088b.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U727": {
+                "url": "images/doors/textures/dsp_color/82d59d335a60a9219929795697d60917.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U963": {
+                "url": "images/doors/textures/dsp_color/0d2d91775db52e89680669ebbe8dc68c.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U518": {
+                "url": "images/doors/textures/dsp_color/71666915e1307e081151d1774354e0a8.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_F459": {
+                "url": "images/doors/textures/dsp_color/f148cf5c39ef7e05c3f11289bf5da98e.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DSP_COLOR_EGGER_U540": {
+                "url": "images/doors/textures/dsp_color/df7daf55a6a774707f2d9c57181814d9.jpg",
+                "type": "default",
+                "cost": 2
+            }
+        },
+
+        "TEXTURE_GROUP_GLASS_COLOR": {
+            "TEXTURE_ITEM_GLASS_COLOR_LIME": {
+                "url": "images/doors/textures/glass_color/6f15cb8f95261fb331b4df694d3f41a6.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_BLUE": {
+                "url": "images/doors/textures/glass_color/445a30d8b41941b44f7960b5d40b2029.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_GREY": {
+                "url": "images/doors/textures/glass_color/6b95790c89fe0b85df9aa4693c247035.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_ULTRAMARINE": {
+                "url": "images/doors/textures/glass_color/feedf5bb3a348cd513e15b65176411cf.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_DARK_RED": {
+                "url": "images/doors/textures/glass_color/68cbf071ae8fda7167f8f63885be9789.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_WHITE": {
+                "url": "images/doors/textures/glass_color/22a7eb0d7d93ad684310e1a819ee12f0.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_BIRUZA": {
+                "url": "images/doors/textures/glass_color/53ce75bef3a4f8a0574f6d734f56c15c.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_PALE_LIGHT_BLUE": {
+                "url": "images/doors/textures/glass_color/a3454006717d069c87f388aecb5b2e92.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_PALE_RED": {
+                "url": "images/doors/textures/glass_color/77305529d683315abbca14b00fac7684.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_PALE_BLUE": {
+                "url": "images/doors/textures/glass_color/79a0ed1ac2b81332b8dbb7f593fdf41b.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_PALE": {
+                "url": "images/doors/textures/glass_color/49c4e163ef1e938516d234b4e81404a8.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_BORDO": {
+                "url": "images/doors/textures/glass_color/ca38ae91ef77b32637cfee1ffff58543.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_BURII": {
+                "url": "images/doors/textures/glass_color/b9ab1e602c00608146e928c766569569.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_GORCHICH": {
+                "url": "images/doors/textures/glass_color/5cdf0499548c808a7d361d8114522546.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_YELLOW": {
+                "url": "images/doors/textures/glass_color/03b7035a2dd7112433cb7b69a922d01e.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_GREEN_GLAZ": {
+                "url": "images/doors/textures/glass_color/01fb3e1ac580d337cd256edf0d98fb6d.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_RED": {
+                "url": "images/doors/textures/glass_color/8f7895e572666d4612235ad1de4082f0.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_MALINA": {
+                "url": "images/doors/textures/glass_color/d0f9c50619ed60605fd803534668d96e.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_WET": {
+                "url": "images/doors/textures/glass_color/87062eb2db19578a0b50d586d85821ac.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_OLIVE": {
+                "url": "images/doors/textures/glass_color/c4183d3fad1d67007118ad8869fff5b3.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_ORANGE": {
+                "url": "images/doors/textures/glass_color/538687f6da90d4b3edcbb72cb54385b1.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_PASTELNO_BLUE": {
+                "url": "images/doors/textures/glass_color/d4febf3a5e3e07857722eb6847f2ea90.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_SALATOVII": {
+                "url": "images/doors/textures/glass_color/b00229808d23868b158e715814bc1387.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_BRIGHT_ORANGE": {
+                "url": "images/doors/textures/glass_color/e2c13cb11d829100b096893b9c474e40.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_BRIGHT": {
+                "url": "images/doors/textures/glass_color/4c0193a8fd869cc130bee49f97762d5b.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_SERIEN": {
+                "url": "images/doors/textures/glass_color/178ea86ca5dee578228400fdecb7751f.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_GREY_GREEN": {
+                "url": "images/doors/textures/glass_color/12e006b8d9b7da1bcca93e94f6fd936a.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_GREY_WITH_DASH": {
+                "url": "images/doors/textures/glass_color/8a69488cd26a5f3ad6f2fd1ab14a829f.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_BLUE_GREEN": {
+                "url": "images/doors/textures/glass_color/4ea3c1a33289f104f252057936423079.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_BLUE_WITH_DASH": {
+                "url": "images/doors/textures/glass_color/fee2f0e1796e746582381502d77004a6.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_DARK_BLUE": {
+                "url": "images/doors/textures/glass_color/2864d38e94365e6d412fe9149282c75a.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_DARK_1": {
+                "url": "images/doors/textures/glass_color/a76279dda948439a34a4d8b3341d49fa.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_DARK_2": {
+                "url": "images/doors/textures/glass_color/e438252a13fb6ea3b17efc1265e475e7.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_HACKI": {
+                "url": "images/doors/textures/glass_color/eb129211922a6e1ef99dc16c6462571f.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_BLACK": {
+                "url": "images/doors/textures/glass_color/ce8a65b70b83e6c475a0efa89bfd0700.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_BRIGHT_1": {
+                "url": "images/doors/textures/glass_color/206eb5e2dff4ea6c9a2224105f44b976.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_COLOR_BRIGHT_YELLOW": {
+                "url": "images/doors/textures/glass_color/cb6f1e5e5fa38f0d2c2f681384b4304d.jpg",
+                "type": "default",
+                "cost": 2
+            }
+        },
+
+        "TEXTURE_GROUP_GLASS": {
+            "TEXTURE_ITEM_GLASS_BRONZE": {
+                "url": "images/doors/textures/glass/a64d3651c0a5f7171e8217bfdfe4c246.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_TRANSPARENT": {
+                "url": "images/doors/textures/glass/d8ee6434f0aea4d6aa3f81ab99cc9375.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_16": {
+                "url": "images/doors/textures/glass/0554644d15606cb9289409cd5338a057.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_17": {
+                "url": "images/doors/textures/glass/a8e62c2f068900cbffd72d28d9e69088.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_18": {
+                "url": "images/doors/textures/glass/ebbf90753024cd71097928f87a6fa730.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_19": {
+                "url": "images/doors/textures/glass/c2e3088746243d121b0d5cd4832211f8.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_1": {
+                "url": "images/doors/textures/glass/1eb9402e16c25bffe784b93a9b158ab1.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_2": {
+                "url": "images/doors/textures/glass/2d2f08e90a162f14ab395a08ccb3c4be.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_3": {
+                "url": "images/doors/textures/glass/4697352b28791fb92f81a563fa98409e.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_4": {
+                "url": "images/doors/textures/glass/1e1cd7eeb592fe852e45c21480fa125a.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_5": {
+                "url": "images/doors/textures/glass/13728bcaadf14e3ff3f6e028e2a82a42.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_6": {
+                "url": "images/doors/textures/glass/54997b78677e747b51497205b05899ef.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_7": {
+                "url": "images/doors/textures/glass/0db64248daf1a96cd859f1ebc5624266.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_8": {
+                "url": "images/doors/textures/glass/28c8ca4d338af2774e75b1f79609ca9c.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_9": {
+                "url": "images/doors/textures/glass/157228593ca18d445093cb6039d3e5e5.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_10": {
+                "url": "images/doors/textures/glass/428c70f93afa6141c6a58ecddc5ceee3.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_11": {
+                "url": "images/doors/textures/glass/d9a4c9caf79b603da06614ee237bd8e1.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_12": {
+                "url": "images/doors/textures/glass/5d2cb4c86128ff415ea5d719096cf2c4.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_13": {
+                "url": "images/doors/textures/glass/6348f2e667e4aff919e02e3bacdbd112.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_14": {
+                "url": "images/doors/textures/glass/6c05d77e7a1e396dd3e6b5fb3860d73c.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLASS_15": {
+                "url": "images/doors/textures/glass/d9caa87132cade0238fb05c59dea287e.jpg",
+                "type": "default",
+                "cost": 2
+            }
+        },
+
+        "TEXTURE_GROUP_SANDSTREAM": {
+            "TEXTURE_ITEM_SANDSTREAM_1": {
+                "url": "images/doors/textures/sandstream/8828899d6fd68191a01e2563c02f223a.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_SANDSTREAM_2": {
+                "url": "images/doors/textures/sandstream/42631d5684262667f47afaa4a76a6d91.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_SANDSTREAM_3": {
+                "url": "images/doors/textures/sandstream/acf593bb4707067238eb26e2542984b8.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_SANDSTREAM_4": {
+                "url": "images/doors/textures/sandstream/462dfc34f8de9a6943b4e090206924bf.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_SANDSTREAM_5": {
+                "url": "images/doors/textures/sandstream/5a86a57efacc94231f430654c0bdb558.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_SANDSTREAM_6": {
+                "url": "images/doors/textures/sandstream/c7b40f7ada8f56a055a8ff7c58d447af.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_SANDSTREAM_7": {
+                "url": "images/doors/textures/sandstream/039fed23f0fcdc7a4fe6067372d350e1.jpg",
+                "type": "default",
+                "cost": 2
+            }
+        },
+
+        "TEXTURE_GROUP_FOTOPRINT": {
+            "TEXTURE_ITEM_FOTOPRINT_BLD_2001": {
+                "url": "images/doors/textures/fotoprint/1541ce7d7cf37eeed76ec725685342c9.jpg",
+                "type": "doors",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FOTOPRINT_FLW_3003": {
+                "url": "images/doors/textures/fotoprint/630cf31db89566a49c46f470403f9d92.jpg",
+                "type": "doors",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FOTOPRINT_PRINT_2": {
+                "url": "images/doors/textures/fotoprint/14d9ed4f5474926eb7d20f163deb8136.jpg",
+                "type": "doors",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FOTOPRINT_AT_2002": {
+                "url": "images/doors/textures/fotoprint/9b58e6aee2ca8236293038d9be053081.jpg",
+                "type": "doors",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FOTOPRINT_ABS_3021": {
+                "url": "images/doors/textures/fotoprint/12d78db23ca5d3b4d4ae4b162f84d11a.jpg",
+                "type": "doors",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FOTOPRINT_TWN_2006": {
+                "url": "images/doors/textures/fotoprint/9f530ee5e0bed2b41d1a79afdb7366e7.jpg",
+                "type": "doors",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FOTOPRINT_SEA_3003": {
+                "url": "images/doors/textures/fotoprint/8d032b48d88e2087d9d6d05db543be0f.jpg",
+                "type": "doors",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FOTOPRINT_TWN_3021": {
+                "url": "images/doors/textures/fotoprint/daf9747e23bb0341dbec1771dc82960d.jpg",
+                "type": "doors",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FOTOPRINT_WIN_2005": {
+                "url": "images/doors/textures/fotoprint/026e5e203591d6018aa14b4bdf1a4e69.jpg",
+                "type": "doors",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FOTOPRINT_WTR_2005": {
+                "url": "images/doors/textures/fotoprint/48ae853daf12b5d7f9e9775169b1d025.jpg",
+                "type": "doors",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FOTOPRINT_WTR_3022": {
+                "url": "images/doors/textures/fotoprint/75eef2d58844aab16972ce436e671227.jpg",
+                "type": "doors",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FOTOPRINT_FLW_4001": {
+                "url": "images/doors/textures/fotoprint/a8d421dd702ca3daeea1d5efc9fec856.jpg",
+                "type": "doors",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FOTOPRINT_FOR_2003": {
+                "url": "images/doors/textures/fotoprint/7133373b222b15c13d14648e92f2d867.jpg",
+                "type": "doors",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FOTOPRINT_FOR_2011": {
+                "url": "images/doors/textures/fotoprint/99fb01204653283e39874870cf999f75.jpg",
+                "type": "doors",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FOTOPRINT_SEA_1006": {
+                "url": "images/doors/textures/fotoprint/c7aed58b664ac0a4c990c66acdd0e6a4.jpg",
+                "type": "doors",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FOTOPRINT_TWN_2001": {
+                "url": "images/doors/textures/fotoprint/77c6539ebdfceabcda3505d46f1810c6.jpg",
+                "type": "doors",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FOTOPRINT_ABS_2010": {
+                "url": "images/doors/textures/fotoprint/275edb50842be245ea105fa534409d5d.jpg",
+                "type": "doors",
+                "cost": 2
+            }
+        },
+
+        "TEXTURE_GROUP_BAMBUK": {
+            "TEXTURE_ITEM_BAMBUK_2": {
+                "url": "images/doors/textures/bambuk/255fb58e84d42b234952f36555050649.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_BAMBUK_1": {
+                "url": "images/doors/textures/bambuk/c7903c7d113c4a56b1c16bc6a4dce914.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_BAMBUK_3": {
+                "url": "images/doors/textures/bambuk/6a95be788abbdfcfb0a48fef51f47052.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_BAMBUK_LUME_1": {
+                "url": "images/doors/textures/bambuk/3a8e3c432ecfcdf55d86196099147775.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_BAMBUK_LUME_2": {
+                "url": "images/doors/textures/bambuk/ffa2eba7f270c9c7dcf89de1f1ca61aa.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_BAMBUK_LUME_3": {
+                "url": "images/doors/textures/bambuk/834be7c106cfbd3b3dbc0e557bb51e23.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_BAMBUK_LUME_4": {
+                "url": "images/doors/textures/bambuk/73941f5968b0d8e8569786357b50d819.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_BAMBUK_LUME_5": {
+                "url": "images/doors/textures/bambuk/429d65e20046e3fb420acb479a754846.jpg",
+                "type": "default",
+                "cost": 2
+            }
+        },
+
+        "TEXTURE_GROUP_ROTANG": {
+            "TEXTURE_ITEM_ROTANG_RED": {
+                "url": "images/doors/textures/rotang/2fa2b7d9da62e7924352ba261cfb04b8.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ROTANG_BLUE": {
+                "url": "images/doors/textures/rotang/c59e689b053e6a22f3ae7f8d8c12f287.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ROTANG_WHITE": {
+                "url": "images/doors/textures/rotang/4c1cc80422c356d22c465c6256268ddb.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ROTANG_VENGE": {
+                "url": "images/doors/textures/rotang/2380944ed1607e8ba655d58f61eb38d8.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ROTANG_DARK_NUT": {
+                "url": "images/doors/textures/rotang/4a32de7980baab616d8f110ddda5c361.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ROTANG_RED_CHERRY": {
+                "url": "images/doors/textures/rotang/9c5337d06b124089e4167a86151ceb5b.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ROTANG_HACKI": {
+                "url": "images/doors/textures/rotang/1bae4298b9e03c7de43c2520ff020703.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ROTANG_NUT": {
+                "url": "images/doors/textures/rotang/f0005318374e9acf45b1bad2b7b64598.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ROTANG_HONEY": {
+                "url": "images/doors/textures/rotang/12c1f6a136db32607e54ab9c2686c2fe.jpg",
+                "type": "default",
+                "cost": 2
+            }
+        },
+
+        "TEXTURE_GROUP_DECOACRIL": {
+            "TEXTURE_ITEM_DECOACRIL_4" :{
+                "url": "images/doors/textures/decoacril/3196756cc3252c2bd720172513f8cf23.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_14" :{
+                "url": "images/doors/textures/decoacril/f829b7c7b757026eedcbc8b72cbfa836.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_46" :{
+                "url": "images/doors/textures/decoacril/292474c785a3bc601e7fcc1a9aef3f6f.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_47" :{
+                "url": "images/doors/textures/decoacril/ab584a2704192fb36ceab96c8cea4e72.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_48" :{
+                "url": "images/doors/textures/decoacril/05709d84a50ba51f5eb2b804949b072a.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_49" :{
+                "url": "images/doors/textures/decoacril/d2888f447196caee562afcd7ec941a00.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_50" :{
+                "url": "images/doors/textures/decoacril/b0150bea5378d83da93bfb4e8ab0d57f.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_51" :{
+                "url": "images/doors/textures/decoacril/2695465615a068aa8890dc8e8553deff.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_3" :{
+                "url": "images/doors/textures/decoacril/0a088bc85398b28bc633f7bd6fb31540.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_5" :{
+                "url": "images/doors/textures/decoacril/da7123019ca1e4a8bb60d7fd4bdace03.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_13" :{
+                "url": "images/doors/textures/decoacril/b5315923359e0e6fd647d7f05a8a9ae5.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_15" :{
+                "url": "images/doors/textures/decoacril/029a1213b2ea0f32f3ab9a036823275b.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_18" :{
+                "url": "images/doors/textures/decoacril/426d07fb907aff4a4a77d5561bd493e5.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_19" :{
+                "url": "images/doors/textures/decoacril/61cfac4fc103bd58876f2a01a47e53cd.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_25" :{
+                "url": "images/doors/textures/decoacril/03c88e06530d65ebbaf41098374ad3e2.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_27" :{
+                "url": "images/doors/textures/decoacril/5f002103988ef7c200548063289476d2.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_28" :{
+                "url": "images/doors/textures/decoacril/14c171255a6bb9589df6ad8445c4bc58.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_29" :{
+                "url": "images/doors/textures/decoacril/d9338d09e699a9c89f3a9257a1119fe2.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_30" :{
+                "url": "images/doors/textures/decoacril/6125a803df15961685ec0cc55aeebaa6.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_32" :{
+                "url": "images/doors/textures/decoacril/e7096f9bfdb086556e377d04421428e3.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_43" :{
+                "url": "images/doors/textures/decoacril/d557b5e22973b15257850caa32dcfec7.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_44" :{
+                "url": "images/doors/textures/decoacril/7bc2f207d499dbdc3009f4684d2aee45.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_0" :{
+                "url": "images/doors/textures/decoacril/ded1956ab3d8c906aca0994ae6d809eb.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_1" :{
+                "url": "images/doors/textures/decoacril/204991f46369a9295cb85c3d190a6886.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_20" :{
+                "url": "images/doors/textures/decoacril/773e5cc99b0d914b4616d413f12b252b.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_21" :{
+                "url": "images/doors/textures/decoacril/5d151014a773323b0b5c9224fdedfeef.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_22" :{
+                "url": "images/doors/textures/decoacril/dcb9c54ce2a87f576228e59bd904956b.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_24" :{
+                "url": "images/doors/textures/decoacril/f2e55a646026772149741d640f3ebeeb.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_42" :{
+                "url": "images/doors/textures/decoacril/9ccd8d8b6a07377a685a745b5ee9ca10.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_DECOACRIL_45" :{
+                "url": "images/doors/textures/decoacril/180e23b133631eb290ca1be9cc807a38.jpg",
+                "type": "default",
+                "cost": 2
+            }
+        },
+        "TEXTURE_GROUP_LEATHER_SIBU": {
+            "TEXTURE_ITEM_LEATHER_SIBU_FLORAL_WHITE_SILVER_MAT_LEATHER": {
+                "url": "images/doors/textures/leather_sibu/f3c292fcc8c123f987024a75bd3ef360.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_FLORAL_WHITE_GOLD_MAT_LEATHER": {
+                "url": "images/doors/textures/leather_sibu/df3a35b0c704f39e66f497488f379f4c.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_FLORAL_BLACK_SILVER_MAT_LEATHER": {
+                "url": "images/doors/textures/leather_sibu/9e16ee1a089b593344bd9c32688cba31.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_FLORAL_BLACK_LEATHER": {
+                "url": "images/doors/textures/leather_sibu/c84106f99f7618ffea5b4e9935424690.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_NERO_SILVER": {
+                "url": "images/doors/textures/leather_sibu/63f48a60e73eb599879b72a0f3f83d2c.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_ALISE_WHITE_GOLD": {
+                "url": "images/doors/textures/leather_sibu/11ebf431924fbb9e73deeb960557d139.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_ALISE_WHITE_SILVER": {
+                "url": "images/doors/textures/leather_sibu/ba494cb80198ae343848ed269106da12.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_ALISE_VINTAGE_BLACK": {
+                "url": "images/doors/textures/leather_sibu/1a494c20259ff3ca2e4f0660d9a0219f.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_ALISE_VINTAGE_COOPER": {
+                "url": "images/doors/textures/leather_sibu/faecd51d0bfa69e6584c69792345af73.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_IMPERIAL_BLACK_SILVER": {
+                "url": "images/doors/textures/leather_sibu/0428ec6bc9fd4b7b144cdffe8ed57551.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_IMPERIAL_VINTAGE_BLACK": {
+                "url": "images/doors/textures/leather_sibu/37dedb6ec0e4e53112b39fde340a086a.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_CROCCO_WHITE_LEATHER": {
+                "url": "images/doors/textures/leather_sibu/11dc11363761554335407b60958a4b88.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_CROCCO_CREME_LEATHER": {
+                "url": "images/doors/textures/leather_sibu/54c273ee4c4437b859163bd9144d524c.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_COLLAGE_MOCCA": {
+                "url": "images/doors/textures/leather_sibu/af0a40382c5ec1433974fc709c6a340f.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_COLLAGE_ORO": {
+                "url": "images/doors/textures/leather_sibu/408d208cc07d0bfb51cc0f1df7465b65.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_COLLAGE_NERO": {
+                "url": "images/doors/textures/leather_sibu/37d049bd288f4d7a152a9a71e9caf1cb.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_BIANCO_SILVER": {
+                "url": "images/doors/textures/leather_sibu/525f4211f061674acc384ba6a6959668.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_SIBU_PELO_SAVANNA": {
+                "url": "images/doors/textures/leather_sibu/5c168745669a3762d6f2bd6218677d6e.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_BEIGE_SILVER_MAT": {
+                "url": "images/doors/textures/leather_sibu/377695013e63c3cb8efce885fb4710fb.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_LL_QUADRO_CREME": {
+                "url": "images/doors/textures/leather_sibu/c6ff425ec2950081a2496929d495253a.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_SIBU_ROMBO40_CREME": {
+                "url": "images/doors/textures/leather_sibu/60078b224bc97db1d291de941714f9a3.jpg",
+                "type": "default",
+                "cost": 2
+            }
+        }, "TEXTURE_GROUP_LEATHER": {
+            "TEXTURE_ITEM_LEATHER_6": {
+                "url": "images/doors/textures/leather/f6d8434dadf55949fefb3b2864da6b64.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_7": {
+                "url": "images/doors/textures/leather/d160c01264b73e1f3b1b79b9ae30c5cd.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_8": {
+                "url": "images/doors/textures/leather/d5f57e252a123c93e79192f36a1c3e97.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_9": {
+                "url": "images/doors/textures/leather/8e2f68411430ee677b6e738cf1298a79.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_10": {
+                "url": "images/doors/textures/leather/dd914941555b5287d2ef04f11f056e31.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_11": {
+                "url": "images/doors/textures/leather/dc467b578a6922bb6287aab57f7beaa8.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_12": {
+                "url": "images/doors/textures/leather/1853c1b25d57433fbab7dd539c500f16.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_13": {
+                "url": "images/doors/textures/leather/dc09d3ed00e7b4552f5dd68e89a964d5.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_14": {
+                "url": "images/doors/textures/leather/ff48ec9992ba6dfb0f8d8bdf5107122a.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_15": {
+                "url": "images/doors/textures/leather/17fd0115966089211e37d6922decd494.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_16": {
+                "url": "images/doors/textures/leather/8337335b9d544f93ea50bda12afb2f31.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_17": {
+                "url": "images/doors/textures/leather/4ea5156741f33c36178f38fae9908583.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_18": {
+                "url": "images/doors/textures/leather/2a139122b50777ddd64b51990fb2fc4f.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_19": {
+                "url": "images/doors/textures/leather/1c0492750328745b4cd2d0931bb8cf91.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_20": {
+                "url": "images/doors/textures/leather/207bbab1c1dab96832fcc4cbaa8bc623.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_21": {
+                "url": "images/doors/textures/leather/ba845c2f20bc682863928f2fa31cfa71.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_22": {
+                "url": "images/doors/textures/leather/91b2e92878ee004a9de5105fa8c5f851.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_24": {
+                "url": "images/doors/textures/leather/76044d4e4a15e880127ae11db2a8fd85.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_23": {
+                "url": "images/doors/textures/leather/c9f00af14b20ec022920115f1a3b6c4c.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_25": {
+                "url": "images/doors/textures/leather/1643411f5a32b064ec0dc99c23c03b5a.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_26": {
+                "url": "images/doors/textures/leather/c4a91b3bade16f7f95df0e6fc2de3c77.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_27": {
+                "url": "images/doors/textures/leather/58ee19248f2f62c38831277d74ea60e4.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_28": {
+                "url": "images/doors/textures/leather/d2f9ca8fbcc8b1aceb250331af404faa.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_29": {
+                "url": "images/doors/textures/leather/bf4dab6d5fef3a3b34cfbc7160435e00.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_30": {
+                "url": "images/doors/textures/leather/e1125a520f42b22216c0faee6d6a26bd.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_31": {
+                "url": "images/doors/textures/leather/01b8984c1aab80b7363e9f3207a595f0.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_32": {
+                "url": "images/doors/textures/leather/1d404f3e61e6a2c9974c4fd5662c3521.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_33": {
+                "url": "images/doors/textures/leather/106d03051097e707e4fa21b8416c1444.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_34": {
+                "url": "images/doors/textures/leather/955d0732f563fb818a6fd7dcb452e013.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_35": {
+                "url": "images/doors/textures/leather/d7099aece4c9d6683d746f9e29cadb4c.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_36": {
+                "url": "images/doors/textures/leather/79fd892e0d4793f5e1a04e2c6dffeced.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_37": {
+                "url": "images/doors/textures/leather/ca35ccb8e48deadf70c0d8a99263ba91.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_38": {
+                "url": "images/doors/textures/leather/ba1ef75cd6bb51b471d93fb4eb0344c0.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_39": {
+                "url": "images/doors/textures/leather/17bcfe153127807ce6edf50458418fd3.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_40": {
+                "url": "images/doors/textures/leather/bcf187643ac0a7029bd57e5206824d64.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_41": {
+                "url": "images/doors/textures/leather/ab9f86a8473b015bca6d167251f7723b.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_42": {
+                "url": "images/doors/textures/leather/f601a2d58134936f5c6a71204c8cda0d.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_43": {
+                "url": "images/doors/textures/leather/8150df9dee940e2c4676773f05f4d459.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_44": {
+                "url": "images/doors/textures/leather/148b459d98fc7e773a3e98d7e9798c7b.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_45": {
+                "url": "images/doors/textures/leather/b6b2b575600aa8306a12bb2c61f173d8.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_46": {
+                "url": "images/doors/textures/leather/7e56a6d42ce3a15d5b842b03527a7f42.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_47": {
+                "url": "images/doors/textures/leather/c33930bd19b22422ae2b7842fa28af7b.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_48": {
+                "url": "images/doors/textures/leather/5cc423cfee8e140bcdf9e4cc9a006836.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_49": {
+                "url": "images/doors/textures/leather/7d4aed0fe5ed09232550dfe015b805f1.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_50": {
+                "url": "images/doors/textures/leather/f10644311112b7f6ef697310c85cf50e.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_51": {
+                "url": "images/doors/textures/leather/98cdd2c41c384b3c47743d2d92825a49.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_52": {
+                "url": "images/doors/textures/leather/9fed8bbb7c4ba381cae7cddc6d8ccbe8.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_53": {
+                "url": "images/doors/textures/leather/ba4fa0f0fd453957e6255ee01b6f31c9.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_54": {
+                "url": "images/doors/textures/leather/147fc983709001ef1901bf72f4c7de0e.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_55": {
+                "url": "images/doors/textures/leather/6f53d3be0198f69a9b9d826ddc9bc447.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_56": {
+                "url": "images/doors/textures/leather/a8ec0f35a7804b88b0aec625715b0d9d.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_57": {
+                "url": "images/doors/textures/leather/568728850daf649e3997cd4ac1de694b.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_58": {
+                "url": "images/doors/textures/leather/c6e5c289d1ea315c05cbb2e9241559ca.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_59": {
+                "url": "images/doors/textures/leather/993f1210bc36c90d861cf9ce15be7a05.jpg",
+                "type": "default",
+                "cost": 2
+            }
+        }, "TEXTURE_GROUP_LEATHER_NATURAL": {
+            "TEXTURE_ITEM_LEATHER_NATURAL_ZEBRA": {
+                "url": "images/doors/textures/leather_natural/78c40639aa17dbb6191f96f74b028a58.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_NATURAL_CROCODILE_WHITE": {
+                "url": "images/doors/textures/leather_natural/a38dd5db234e0f526b6bf6d1231fd101.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_NATURAL_CROCODILE_BLACK": {
+                "url": "images/doors/textures/leather_natural/291e6b3048c9cbd6aba3e32d26c995a6.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_NATURAL_CROCODILE_CREAME": {
+                "url": "images/doors/textures/leather_natural/1f65cebb3ddcf142fe945520303e00d9.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_NATURAL_CROCODILE_BROWN": {
+                "url": "images/doors/textures/leather_natural/ee2d5b0dda54abb7a003721a65d7e5ee.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LEATHER_NATURAL_CROCODILE_BRIGHT": {
+                "url": "images/doors/textures/leather_natural/a0643cab60667a9f6323349f04cabb79.jpg",
+                "type": "default",
+                "cost": 2
+            }
+        }, "TEXTURE_GROUP_ORCHARD": {
+            "TEXTURE_ITEM_ORCHAR_DMCD0332005": {
+                "url": "images/doors/textures/orchard/1def6e6b64dbb2b7fc37410d314bd375.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ORCHAR_DMCD0333007": {
+                "url": "images/doors/textures/orchard/1784bd2c04afa6e144f7f6b771c3781d.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ORCHAR_DMCD0343073": {
+                "url": "images/doors/textures/orchard/76cbf5ba983f35b2fbad3002b97018e0.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ORCHAR_DMCD0344073": {
+                "url": "images/doors/textures/orchard/236ea8373672bfc637b8ab9965f7297e.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ORCHAR_DMCD0335073": {
+                "url": "images/doors/textures/orchard/63003b0c34e6da7e701e4f7129862067.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ORCHAR_DMCD0336073": {
+                "url": "images/doors/textures/orchard/a921290d34d6f8a447fb8358380ac780.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ORCHAR_DMCD0337073": {
+                "url": "images/doors/textures/orchard/c443bfa49be64a25b53f2cf9366a42f9.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ORCHAR_DMCD0338073": {
+                "url": "images/doors/textures/orchard/15d5fd99c11264fbe4139875c8353c86.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ORCHAR_DMCD0339073": {
+                "url": "images/doors/textures/orchard/5cae1458faf7dcfb8a3ef4ed14a6bf06.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ORCHAR_DMCD0340073": {
+                "url": "images/doors/textures/orchard/5b823154dafa6edc0940cdd5d7102b02.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ORCHAR_DMCD0341073": {
+                "url": "images/doors/textures/orchard/049dc3b2fa13a5f72f445a13cdb74bec.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ORCHAR_DMCD0342073": {
+                "url": "images/doors/textures/orchard/990fdaf20b56b7ff19f8bd470b9b705b.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_ORCHAR_DMCD0352073": {
+                "url": "images/doors/textures/orchard/41b230e66e39cd566b45cef5bd4f6ff5.jpg",
+                "type": "default",
+                "cost": 2
+            }
+        }, "TEXTURE_GROUP_VITRAZH" : {
+            "TEXTURE_ITEM_VITRAZH_ROMBI": {
+                "url": "images/doors/textures/vitrazh/6d6cec6dbcd1596ecafd06e7b37cdd56.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_VITRAZH_1": {
+                "url": "images/doors/textures/vitrazh/e75a45e13a8c5ca9c938d33ecb352a8a.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_VITRAZH_4": {
+                "url": "images/doors/textures/vitrazh/c824c12a4ff10c8814720c5fe35612b9.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_VITRAZH_3": {
+                "url": "images/doors/textures/vitrazh/6f21d9821d5c66eca31964baa77fe949.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_VITRAZH_2": {
+                "url": "images/doors/textures/vitrazh/9ad83179e6aed7259ca286903509fe0c.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_VITRAZH_5": {
+                "url": "images/doors/textures/vitrazh/5f9f9d86b13de67e3b4723624ec074e0.jpg",
+                "type": "default",
+                "cost": 2
+            }
+        }, "TEXTURE_GROUP_RESOPAL" : {
+            "TEXTURE_ITEM_RESOPAL_VIOLA": {
+                "url": "images/doors/textures/resopal/c1455a31549cfceaa4d5307a85c67e25.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_RESOPAL_ORCHID": {
+                "url": "images/doors/textures/resopal/c3d653eaebe4d361dd1fb7d59a00a3a4.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_RESOPAL_AVOCADO": {
+                "url": "images/doors/textures/resopal/2dd0f178ac461763b911f4b41583615e.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_RESOPAL_BEAVER": {
+                "url": "images/doors/textures/resopal/2baa002cc6e97c78c87ea3656c0434a2.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_RESOPAL_SILICA": {
+                "url": "images/doors/textures/resopal/b6aa504f413ff07527d6b56e2cd7c32f.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_RESOPAL_SNOW": {
+                "url": "images/doors/textures/resopal/6355409f512aaeb3262d5ed5e1fde1cf.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_RESOPAL_BLACK": {
+                "url": "images/doors/textures/resopal/ce2fd4326d15b606f1fa1013d2ec8578.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_RESOPAL_PORT": {
+                "url": "images/doors/textures/resopal/c4ca965dcfb540c028a339e2211ca53d.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_RESOPAL_U08269": {
+                "url": "images/doors/textures/resopal/b4f25ab94960706176c73c63b3666820.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_RESOPAL_U08440": {
+                "url": "images/doors/textures/resopal/dd93de6f915b7233d4db76027fc3bb97.JPG",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_RESOPAL_U08438": {
+                "url": "images/doors/textures/resopal/97eb5cfc65c98fc48cc08e9b6f80b224.JPG",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_RESOPAL_U08441": {
+                "url": "images/doors/textures/resopal/1e8f60668d64849e33b36de1ad66e880.JPG",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_RESOPAL_U08265": {
+                "url": "images/doors/textures/resopal/fa604510a3ac1b2f919549b49e842ed5.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_RESOPAL_U08565": {
+                "url": "images/doors/textures/resopal/32060dc2cd2e5b5e1dd4441f2883a3e2.jpg",
+                "type": "default",
+                "cost": 2
+            }
+        }, "TEXTURE_GROUP_GLOSSPANEL": {
+            "TEXTURE_ITEM_GLOSSPANEL_VIOLETS": {
+                "url": "images/doors/textures/glosspanel/29efe2465d7dbb27826908d741ea4dc5.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_76264_D60": {
+                "url": "images/doors/textures/glosspanel/2cb1a65f04dabcc8897dba1e42c0b6ac.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_67967_D1058": {
+                "url": "images/doors/textures/glosspanel/4fbef85ae42ec13740a7ad0531d3c1ef.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_78279": {
+                "url": "images/doors/textures/glosspanel/8a30396c92489dae1c865f2202dbcca4.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_WHITE_ROZES": {
+                "url": "images/doors/textures/glosspanel/047de226a7eda59785daf5953e5110d0.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_BISER_BLACK": {
+                "url": "images/doors/textures/glosspanel/1c0a0ffbaefc2c00d11f0acf44b1e055.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_BISER_BORDO": {
+                "url": "images/doors/textures/glosspanel/8f6c77689d792cab8ccb0f7579dd57ef.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_CHRIZANTEM": {
+                "url": "images/doors/textures/glosspanel/d472d45d6fd0be47d16a12373f24dd25.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_MAK": {
+                "url": "images/doors/textures/glosspanel/a13a26cfcdd25cbf76901c9af02b1fd2.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_MONGOLIA": {
+                "url": "images/doors/textures/glosspanel/909131099ec40de2e123a8575c191d89.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_LILY_GRAPHIC": {
+                "url": "images/doors/textures/glosspanel/4dec8c322c78c452ce168b464d4da9de.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_LILY_SEPIA": {
+                "url": "images/doors/textures/glosspanel/8b34ce9db567a4d6a9ad81c584dbb208.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_ROZES_COLOR": {
+                "url": "images/doors/textures/glosspanel/2b7797fa1d9d72b2eb1a0c4a6cfee41f.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_ROMB_COLOR": {
+                "url": "images/doors/textures/glosspanel/53394397655260f95e2406bf6ad24d58.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_PLIUZCH_BURGUNDUNSKI": {
+                "url": "images/doors/textures/glosspanel/d44e3f932f2eb9978575cc4d9aada9f3.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_76957_D1007": {
+                "url": "images/doors/textures/glosspanel/1299129eb3fc6996eb4b6f7d9f9462e7.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_V1589_D1006": {
+                "url": "images/doors/textures/glosspanel/6a5b41524211c193af7081d9619d160f.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_61753_D1014": {
+                "url": "images/doors/textures/glosspanel/4a3e3899a03b66ecf7ed56270bedaf60.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_76173_D1016": {
+                "url": "images/doors/textures/glosspanel/8b8ec29875b9f2a705b2dbcafb7d12fa.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_76490_D1056": {
+                "url": "images/doors/textures/glosspanel/beec7551d7a7fc670c7a58d4c698cc4d.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_76264_D30": {
+                "url": "images/doors/textures/glosspanel/b52647c0ea3a154434e9b7c554e8eed3.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_76264_D1002": {
+                "url": "images/doors/textures/glosspanel/bba64ac49f670e74b943d93ffc47c400.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_76173_D1065": {
+                "url": "images/doors/textures/glosspanel/61f517fd97fda4d2f6e98cf31d576b33.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_77024_D1057": {
+                "url": "images/doors/textures/glosspanel/e4950849dade6ec3a6f294e4a93f56a0.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_67790_D10011": {
+                "url": "images/doors/textures/glosspanel/35e29b8901b42836855d08777fa4f3ff.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_62524_D1060": {
+                "url": "images/doors/textures/glosspanel/1cb6f0e07f415d1438cdb05ff796ea52.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_61753_D1023": {
+                "url": "images/doors/textures/glosspanel/22f10139cbf259295ff4adb48103cd6a.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_GLOSSPANEL_67967_D1026": {
+                "url": "images/doors/textures/glosspanel/4fe2aafd67d9e80fad62bb8ab6dbae13.jpg",
+                "type": "default",
+                "cost": 2
+            }
+        }, "TEXTURE_GROUP_FORMICA" : {
+            "TEXTURE_ITEM_FORMICA_ANTIQUE_WHITE": {
+                "url": "images/doors/textures/formica/9138d9a95605e20050a0bd4d5042a3f9.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FORMICA_BOHEMIA": {
+                "url": "images/doors/textures/formica/be30a14140dd3d52194d55155540e78b.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FORMICA_CHINA_BLUY": {
+                "url": "images/doors/textures/formica/1ea4f66d4a4ac034136ce278d71c2f71.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FORMICA_TROPICAL_BLUE": {
+                "url": "images/doors/textures/formica/15d7fcf1a944bb6ae8a436c19706a38c.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FORMICA_SPECTRUM_BLUE": {
+                "url": "images/doors/textures/formica/85467056f840d508c9ebb4105a74e1c3.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FORMICA_CASSIS": {
+                "url": "images/doors/textures/formica/4b07430ebf23195de5214cd886b96ff5.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FORMICA_CHROME_YELLOW": {
+                "url": "images/doors/textures/formica/2d8e3945a3b4558fedb78c961b17be6f.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FORMICA_LEVANTE": {
+                "url": "images/doors/textures/formica/79193dd0ce1a5affcc35b2f1e2d432ba.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FORMICA_CLEMENTINE": {
+                "url": "images/doors/textures/formica/8dee1084288dff8e10aaaedabac3978d.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FORMICA_JUICY_PINK": {
+                "url": "images/doors/textures/formica/a972efc5a91e2d4765fea82a9db0a505.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FORMICA_CARNAVAL": {
+                "url": "images/doors/textures/formica/81197c5ea17ab6c9934a925628356fe7.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FORMICA_BORDEAUX": {
+                "url": "images/doors/textures/formica/2ce23c9621f0222d9e8fd0ea50258e2f.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FORMICA_KASHMIR": {
+                "url": "images/doors/textures/formica/8e2d13aeed92fdf08d351e981e3fa9d3.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FORMICA_DARK_CHOCOLATE": {
+                "url": "images/doors/textures/formica/eb9b25851db71deee151f17cc33123c1.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FORMICA_VERVE": {
+                "url": "images/doors/textures/formica/0db3fb8b6991f415f2357e5f4f8a8f6c.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FORMICA_RICH_GREEN": {
+                "url": "images/doors/textures/formica/b24f1edee239739ed60c699eaeca5941.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FORMICA_OCEAN_GREY": {
+                "url": "images/doors/textures/formica/c8b62577b07d442c9cdbc786e14fdb4f.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FORMICA_STORM": {
+                "url": "images/doors/textures/formica/33ba00e849c6a1fb798401b6359903b8.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FORMICA_U_GREY": {
+                "url": "images/doors/textures/formica/29b50741d09d0438b859f562e78406c4.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_FORMICA_DIAMOND": {
+                "url": "images/doors/textures/formica/54042ad8c4ab7a9542528422594b6879.jpg",
+                "type": "default",
+                "cost": 2
+            }
+        }, "TEXTURE_GROUP_LAMICOLOR" : {
+            "TEXTURE_ITEM_LAMICOLOR_202_INT": {
+                "url": "images/doors/textures/lamicolor/9f7d1dacbdc0ac5593770b87855ab329.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_751_INT": {
+                "url": "images/doors/textures/lamicolor/05fe67ab1a7874a923ed89ae2beb2312.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1175_INT": {
+                "url": "images/doors/textures/lamicolor/0fd62224388540c48da8992b3d26efc6.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1183_INT": {
+                "url": "images/doors/textures/lamicolor/d7b76a70bd516b424dd01684b424275b.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1203_INT": {
+                "url": "images/doors/textures/lamicolor/43684059536a312f5eff73635644e787.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_202": {
+                "url": "images/doors/textures/lamicolor/db1def02fc73fe30f247d867c9a92077.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_754": {
+                "url": "images/doors/textures/lamicolor/58b2b8a919fb8a28ae56d2474f0bb897.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1007": {
+                "url": "images/doors/textures/lamicolor/fcf2f2c10901b095a31bb33470ab0eb6.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1011": {
+                "url": "images/doors/textures/lamicolor/aeb1b01a9dfd7a8ebe859da1d18fbd57.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1025": {
+                "url": "images/doors/textures/lamicolor/f1ef5b78f6a3f1bd84f543e11a890a70.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1060": {
+                "url": "images/doors/textures/lamicolor/ef6fc9df0c12397ae29f6644887a4648.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1068": {
+                "url": "images/doors/textures/lamicolor/5755324527fc97b6caad51450d617f46.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1070_LUCIDO": {
+                "url": "images/doors/textures/lamicolor/58b540013ef6a83e8bebea1cc98f38ff.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1078": {
+                "url": "images/doors/textures/lamicolor/e568f7fcf8b88d6a02698e48c8363bc5.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1086": {
+                "url": "images/doors/textures/lamicolor/a4b045510ca55797e708f60f37dafdb2.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1103": {
+                "url": "images/doors/textures/lamicolor/31556b2412472bfd76182342c6f2fc07.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1106": {
+                "url": "images/doors/textures/lamicolor/e6fd1f98f694278c3cc8edeaae8afff1.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1107": {
+                "url": "images/doors/textures/lamicolor/246d830c98a843d1a43552edfb1f26b1.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1143": {
+                "url": "images/doors/textures/lamicolor/3e47864c9908ec386d6c48f58ec9e640.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1176": {
+                "url": "images/doors/textures/lamicolor/712e9abc8d65fb2a2623eac979ea7d37.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1180": {
+                "url": "images/doors/textures/lamicolor/f72638dd637a112d50ce6646377f3219.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1181": {
+                "url": "images/doors/textures/lamicolor/99a4cb56ea46d905c9d120c2b2e8cf21.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1183": {
+                "url": "images/doors/textures/lamicolor/4361956f33c59f233ac5ffbc27fe8c42.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1201": {
+                "url": "images/doors/textures/lamicolor/53290440ea177e816dbf812d6fb15d95.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1204": {
+                "url": "images/doors/textures/lamicolor/30a28b752e155468271bae743a4b2471.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1328_LUCIDO": {
+                "url": "images/doors/textures/lamicolor/8dade91e34b6ac20f9cfb308df565f66.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1329": {
+                "url": "images/doors/textures/lamicolor/28975505c17932062603de2ce06191b9.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1398": {
+                "url": "images/doors/textures/lamicolor/d2e9b1eebfd6f5f88b8d6df9bf9b3ba8.jpg",
+                "type": "default",
+                "cost": 2
+            },
+            "TEXTURE_ITEM_LAMICOLOR_1596": {
+                "url": "images/doors/textures/lamicolor/5f18ebf71f513d3ebb8847f532eedfe9.jpg",
+                "type": "default",
+                "cost": 2
+            }
+        }, "TEXTURE_GROUP_PVH": {
+            "TEXTURE_ITEM_PVH_MCW0068027": {
+                "url": "images/doors/textures/pvh/60e90cc982a31004fa33ea29e8c8ccad.jpg",
+                "type": "default",
+                "cost": 2
+            }
+        }
+    }
+}
